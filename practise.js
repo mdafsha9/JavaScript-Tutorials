@@ -8,3 +8,7 @@ function openLock(){
 function closeLock(){
   document.getElementById('myImg').src="assets/lockclo.png";
 }
+
+function changeSty(){
+  document.getElementById('changesty').style.color = "darkred";
+}
