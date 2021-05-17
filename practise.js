@@ -12,3 +12,7 @@ function closeLock(){
 function changeSty(){
   document.getElementById('changesty').style.color = "darkred";
 }
+
+function changeElem(){
+  document.getElementById('changelem').style.display = 'none';
+}
