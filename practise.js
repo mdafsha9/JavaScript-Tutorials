@@ -16,3 +16,7 @@ function changeSty(){
 function changeElem(){
   document.getElementById('changelem').style.display = 'none';
 }
+
+function showElem(){
+  document.getElementById('showElem').style.display = 'block';
+}
