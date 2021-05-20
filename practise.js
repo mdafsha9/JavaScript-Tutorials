@@ -27,3 +27,9 @@ function smile(){
 function chil(){
   document.getElementById('smile').src = "assets/chill.jpg";
 }
+
+document.write("Hello JavaScript");
+
+//window.alert("Hello JavaScript");
+
+console.log("Hello JavaScript");
