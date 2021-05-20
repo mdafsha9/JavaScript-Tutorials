@@ -21,6 +21,9 @@ function showElem(){
   document.getElementById('showElem').style.display = 'block';
 }
 
-function prac(){
-  document.getElementById('prac').innerHTML = "Hello JavaScript";
+function smile(){
+  document.getElementById('smile').src = "assets/smile.png";
+}
+function chil(){
+  document.getElementById('smile').src = "assets/chill.jpg";
 }
