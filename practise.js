@@ -20,3 +20,7 @@ function changeElem(){
 function showElem(){
   document.getElementById('showElem').style.display = 'block';
 }
+
+function prac(){
+  document.getElementById('prac').innerHTML = "Hello JavaScript";
+}
