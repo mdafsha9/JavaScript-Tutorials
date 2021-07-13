@@ -22,3 +22,11 @@ p{
 ul,ol,li{
   margin-top:0px;
 }
+button{
+  background-color:#ffff80;
+  border-radius:3px;
+  padding:5px;
+}
+h4{
+  margin:2px;
+}
