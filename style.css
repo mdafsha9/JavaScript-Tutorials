@@ -1,0 +1,24 @@
+h1{
+  text-align:center;
+  background-color:#ffff80;
+  border:5px outset #ffff00;
+  padding:10px;
+  font-family:tempus sans itc;
+  font-weight:bold;
+}
+body{
+  margin-left:25px;
+  font-family:helvetica;
+}
+h2,h3{
+  color:#b3b300;
+  margin-bottom:5px;
+  font-family:times monaco;
+}
+p{
+  margin-top:0px;
+  margin-bottom:5px;
+}
+ul,ol,li{
+  margin-top:0px;
+}
