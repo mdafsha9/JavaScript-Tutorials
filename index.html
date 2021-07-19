@@ -56,11 +56,11 @@
     </ul>
     <p>JavaScript had only Global scope and function scope. ESC6 introduced two important JavaScript keywords let and const<br>
     These two keywords provide block scope in JavaScript.Variables declared inside a { }  block cannot be accessed outside the block.</p>
-    <strong>Example for let varaible</strong>
+    <strong>difference between let and var keywords</strong>
     <p id="demo1"></p>
     <p id="demo2"></p>
     <script>
-    //A variable inside the block cannot access the outside the block using let keyword
+      //A variable inside the block cannot access the outside the block using let keyword
       let a = 2;
       {
         let a = 10;
@@ -72,6 +72,19 @@
         var b = 9;
       }
       document.getElementById("demo2").innerHTML = b;
+    </script>
+    <h3>Example of const keyword</h3>
+    <p id="demo3"></p>
+    <script>
+    //JavaScript const variable cannot be reassigned
+      const p;
+      p = 3.2;
+      document.getElementById("demo3").innerHTML = p;
+    </script>
+    <script>
+      //JavaScript const keyword must be assigned a value when it is declared
+      const p=3.2;
+      document.getElementById("demo3").innerHTML = p;
     </script>
   </body>
 </html>
