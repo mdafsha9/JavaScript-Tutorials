@@ -37,12 +37,24 @@
     <strong>Example:</strong>
     <p id="demo"></p>
     <script>
-      var x=2, y=3;
-      var z = x+y;
-      dcoument.getElementById('demo').innerHTML = z;
+    var x = 1;
+    var y = 6;
+    var z = x +y ;
+    document.getElementById("demo").innerHTML = "The total value is " + z;
     </script>
-    <h3>JavaScript Variables</h3>
-
-
+    <h3>JavaScript let keyword</h3>
+    <ul>
+      <li>Variable defined with "let" cannot be redeclared</li>
+      <li>Variable defined with "let" must be declared before use</li>
+      <li>variable defined with let have block scope</li>
+    </ul>
+    <h3>JavaScript const variable</h3>
+    <ul>
+      <li>variable defined with const cannot be redeclared</li>
+      <li>varaiable defined with const cannot be reassigned</li>
+      <li>variables defined with const have block scope</li>
+    </ul>
+    <p>JavaScript had only Global scope and function scope. ESC6 introduced two important JavaScript keywords let and const<br>
+    These two keywords provide block scope in JavaScript.Variables declared inside a { }  block cannot be accessed outside the block.</p>
   </body>
 </html>
