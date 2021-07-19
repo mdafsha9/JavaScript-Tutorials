@@ -43,10 +43,14 @@
     <h4>writting into the HTML output, using document.write()</h4>
     <h4>writting into an alert box, using window.alert()</h4>
     <h4>writting into an console, using console.log()</h4>
-
-    <p id="dty">JavaScript can change HTML style</p>
-    <button onclick="document.getElementById('dty').style.backgroundColor='green'">click</button>
-
+    <h3>JavaScript Variables</h3>
+    <p id="demo1"></p>
+    <script>
+      var x=1; //Declare a variable x and assign value 1 to x variable
+      var y=2;
+      var z=x+y; //Compute a value to z variable
+      document.getElementById("demo1").innerHTML = z;
+    </script>
     <script src="practise.js"></script>
 
   </body>
