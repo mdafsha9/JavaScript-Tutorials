@@ -33,8 +33,3 @@ document.write("Hello JavaScript");
 //window.alert("Hello JavaScript");
 
 console.log("Hello JavaScript");
-
-
-  var x=2, y=3;
-  var z = x+y;
-  dcoument.getElementById('demo').innerHTML = z;
