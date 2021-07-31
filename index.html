@@ -143,5 +143,17 @@
       <li>When it is invoked(called) from Javascript code</li>
       <li>Automatically(self-invoked)</li>
     </ul>
+    <h3>Function return</h3>
+    <p>When JavaScript reaches a return statement, the function will stop executing.<br>
+    If the function was invoked from a statement, JavaScript will "return" to execute the code after the invoking statement.<br>
+    Functions often compute a return value. The return value is "returned" back to the "caller"  </p>
+    <p id="rt"></p>
+  <script>
+    var x = rtFunction(2,8);
+    document.getElementById('rt').innerHTML = x;
+    function rtFunction(p,q){
+      return p+q;
+    }
+  </script>
   </body>
 </html>
