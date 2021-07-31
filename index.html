@@ -147,6 +147,7 @@
     <p>When JavaScript reaches a return statement, the function will stop executing.<br>
     If the function was invoked from a statement, JavaScript will "return" to execute the code after the invoking statement.<br>
     Functions often compute a return value. The return value is "returned" back to the "caller"  </p>
+    <h4>Example for function return</h4>
     <p id="rt"></p>
   <script>
     var x = rtFunction(2,8);
@@ -158,5 +159,20 @@
   <h3>Why function?</h3>
   <p>1. We can reuse the code: Define the code once, use it many times.<br>
     2.We can use the same code many times with different arguments, to produce different results.</p>
+  <h3>Function Expression</h3>
+  <p>A Javascript function can also be defined using an expression.<br>
+   A Function expression can be stored in a variable.</p>
+   <h4>Example for function expression</h4>
+   <p id="ex"></p>
+   <script>
+      let m = function(a,b){
+        return a*b;
+      };
+      document.getElementById("ex").innerHTML = m(5,5);
+   </script>
+   <p>After a function expression has been stored in a variable, this variable is used as a function.<br>
+    This function is called anonymous function(without a function name).<br>
+    Functions stored in a variable do not need function name, they are always invoked using the variable name.<br>
+    This function is alwys ends with a semicolon because of an executable statement.</p>
   </body>
 </html>
