@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="refresh" content="30">
     <link rel="stylesheet" href="style.css">
+
   </head>
   <body>
     <h1>JavaScript</h1>
@@ -129,6 +130,9 @@
       The block of code is aware of variables, but it cannot be used until it has been declared.<br>
       using let variable before it is declared will result referenceError.<br>
       using const variable before it is declared will result syntaxError.</p>
+    <h3>The var keyword</h3>
+    <p>Varaiables defined with var are hoisted to the top and can be initialize at any time.<br>
+    We can use the variable before it is declared.</p>
     <h2>JavaScript Functions</h2>
     <h3>about function</h3>
     <p>A JavaScript function is a block of code designed to perform a particular task.<br>
@@ -196,5 +200,6 @@
       let csFunction = new Function("g","h", "return g*h")
       document.getElementById("cs").innerHTML = csFunction(2,9);
     </script>
+
   </body>
 </html>
