@@ -39,6 +39,12 @@ function exFunction(g,h){
 }
 document.getElementById("func").innerHTML = exFunction(5,8);
 
+let r = retFunction(8,9);
+document.getElementById("rtf").innerHTML = r;
+function retFunction(e,f){
+  return e+f;
+}
+
 let j = function(m,n){
   return m*n;
 };
