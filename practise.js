@@ -33,3 +33,8 @@ document.write("Hello JavaScript");
 //window.alert("Hello JavaScript");
 
 console.log("Hello JavaScript");
+
+let j = function(m,n){
+  return m*n;
+};
+document.getElementById("fncEx").innerHTML = j(5,6);
