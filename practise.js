@@ -34,6 +34,11 @@ document.write("Hello JavaScript");
 
 console.log("Hello JavaScript");
 
+function exFunction(g,h){
+  return g*h;
+}
+document.getElementById("func").innerHTML = exFunction(5,8);
+
 let j = function(m,n){
   return m*n;
 };
