@@ -191,6 +191,15 @@
     This function is called anonymous function(without a function name).<br>
     Functions stored in a variable do not need function name, they are always invoked using the variable name.<br>
     This function is always ends with a semicolon because of an executable statement.</p>
+    <h3>Self-invoking Functions</h3>
+    <ul>
+      <li>Function expression can be made "self-invoking"</li>
+      <li>A self-invoking expression is invoked automatically, without being called</li>
+      <li>Function expression will execute automatically, if the expression followed by ()</li>
+      <li>we cannot sef-invoke a function declaration</li>
+      <li>We have to add () around the function that it is indicated as a function expression</li>
+      <li>This function expression is called actually anonymous self-invoking function (without a function name)</li>
+    </ul>
     <h3>The Function() constructor</h3>
     <p>JavaScript function is defined with function keyword.<br>
     Function can also be defined with built-in JavaScript function constructor called Function().</p>
@@ -200,6 +209,8 @@
       let csFunction = new Function("g","h", "return g*h");
       document.getElementById("cs").innerHTML = csFunction(2,9);
     </script>
+
+
 
   </body>
 </html>
