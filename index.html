@@ -254,6 +254,19 @@
     let e = expsFunction(2,4)*2;
     document.getElementById("exps").innerHTML = e;
     </script>
-
+    <h3>JavaScript functions are objects</h3>
+    <ul>
+      <li>The typeof JavaScript returns function for functions</li>
+      <li>But, JavaScript functions can best be described as objects</li>
+      <li>JavaScript functions have both properties and methods</li>
+      <li>The arguments.length property returns the number of arguments recieved when the function was invoked.</li>
+    </ul>
+    <p id="ar"></p>
+    <script>
+      function arFunction(o, p, q){
+        return arguments.length;
+      }
+      document.getElementById("ar").innerHTML = arFunction(7,8,9);
+    </script>
   </body>
 </html>
