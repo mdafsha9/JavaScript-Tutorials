@@ -100,10 +100,24 @@
       document.getElementById('d3').innerHTML =  "BMW" + 16 + 4;
     </script>
     <h3>The typeof operator</h3>
+    <p>We can use JavaScript typeof operator to find out the typeof JavaScript variable.<br>
+    The typeof operator returns the typeof variable or an expression.</p>
     <p id="st"></p>
+    <p id="nu"></p>
+    <p id="un"></p>
+    <p id="und"></p>
     <script>
+      var car;
       document.getElementById("st").innerHTML = typeof " " + "<br>" + typeof "Maan" + "<br>" + typeof "John huv";
-
+      document.getElementById("nu").innerHTML = typeof 2 + "<br>" + typeof 22 + "<br>" + typeof 22.2 + "<br>" + typeof (2+2)+ "<br>" + typeof(2);
+      <h4>Undefined</h4>
+      <p>In JavaScript, a variable without a value, has the value undefine. The typeof is also undefined.<br>
+      Any variable can be emptied the value is set to undefined and the typeof is also undefined. </p>
+      document.getElementById("un").innerHTML = car + "<br>" + typeof car;
+    </script>
+    <script>
+      var car="undefined";
+      document.getElementById("und").innerHTML = car + "<br>" + typeof car;
     </script>
     <h3>JavaScript types are dynamic</h3>
     <p>JavaScript has dynamic types.This means that the same variable can be used to hold different data types</p>
