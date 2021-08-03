@@ -225,7 +225,15 @@
       let w = vaFunction(8,1);
       document.getElementById("va").innerHTML = w;
     </script>
-
+    <h3>JavaScript functions can be used in expressions</h3>
+    <p id="exps"></p>
+    <script>
+    function expsFunction(c,d){
+      return c+d;
+    }
+    let e = expsFunction(2,4)*2;
+    document.getElementById("exps").innerHTML = e;
+    </script>
 
   </body>
 </html>
