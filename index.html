@@ -268,5 +268,19 @@
       }
       document.getElementById("ar").innerHTML = arFunction(7,8,9);
     </script>
+    <h3>Arrow function</h3>
+    <ul>
+      <li>Arrow function allows a short syntax for writting function expressions</li>
+      <li>We do not need function keyword, return keyword and the curly brackets. </li>
+      <li>Arrow functions don't have their own 'this' keyword. They are not well suited for defining object methods.</li>
+      <li>Arrow functions are not hoisted. They must be defined before they used </li>
+      <li>Using const is safer than var, because a function expression is always const value</li>
+      <li>We can only omit the return keyword and curly brackets if the function is a single statement.</li>
+    </ul>
+    <p id="arr"></p>
+    <script>
+      const r = (u, v) => u*v;
+      document.getElementById("arr").innerHTML = r(5,5);
+    </script>
   </body>
 </html>
