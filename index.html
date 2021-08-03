@@ -200,6 +200,13 @@
       <li>We have to add () around the function that it is indicated as a function expression</li>
       <li>This function expression is called actually anonymous self-invoking function (without a function name)</li>
     </ul>
+    <h4>Example for self-invoking</h4>
+    <p id="slf"></p>
+    <script>
+      (function(){
+          document.getElementById("slf").innerHTML = "Self Invoking expression";
+      })()
+    </script>
     <h3>The Function() constructor</h3>
     <p>JavaScript function is defined with function keyword.<br>
     Function can also be defined with built-in JavaScript function constructor called Function().</p>
@@ -209,7 +216,15 @@
       let csFunction = new Function("g","h", "return g*h");
       document.getElementById("cs").innerHTML = csFunction(2,9);
     </script>
-
+    <h3>JavaScript functions can be used as values:</h3>
+    <p id="va"></p>
+    <script>
+      function vaFunction(k,l){
+        return k+l;
+      }
+      let w = vaFunction(8,1);
+      document.getElementById("va").innerHTML = w;
+    </script>
 
 
   </body>
