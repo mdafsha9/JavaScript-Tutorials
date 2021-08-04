@@ -303,5 +303,13 @@
       }
       document.getElementById("par").innerHTML = parFunction(4);
     </script>
+    <h3>ECM2015 allows default parameter values in the function declaration</h3>
+    <p id="para"></p>
+    <script>
+      function paraFunction(x, y=2){
+        return x*y;
+      }
+      document.getElementById("para").innerHTML = paraFunction(3);
+    </script>
   </body>
 </html>
