@@ -293,5 +293,15 @@
     <p>If a function is called with missing parameter(less than declared) than the missing value is set to undefined.<br>
     Sometimes it is acceptable, but sometimes it is better to assign default value to the parameter.</p>
     <h3>For example:</h3>
+    <p id="par"></p>
+    <script>
+      function parFunction(x,y){
+        if(y === undefined){
+          y=2;
+        }
+        return x*y;
+      }
+      document.getElementById("par").innerHTML = parFunction(4);
+    </script>
   </body>
 </html>
