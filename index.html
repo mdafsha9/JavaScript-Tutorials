@@ -390,5 +390,20 @@
     <li>always adds a constructor()</li>
     <li>then add any number of methods</li>
   </ul>
+  <p id="veh"></p>
+  <script>
+    class Vehicle{
+      constructor(name, year){
+        this.name = name;
+        this.year = year;
+      }
+      age(){
+        let date = new Date();
+        return date.getFullYear()-this.year;
+      }
+    }
+    let myVehicle = new Vehicle("car", 2013);
+    document.getElementById("veh").innerHTML = "My vehicle is " + myVehicle.age() + " years old.";
+  </script>
   </body>
 </html>
