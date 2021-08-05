@@ -350,13 +350,13 @@
     <h3>JavaScript class defination</h3>
     <p>JavaScript class is defined with class keyword.<br>
       always add a method named constructor()</p>
-    <h3>syntax</h3>
+    <h4>syntax</h4>
       class className{
         constructor(){
 
         }
       }
-    <h3>Example:</h3>
+    <h4>Example:</h4>
     class className{
       constructor(name, year){
         this.name = name;
@@ -371,6 +371,17 @@
     <li>It is used to initialization object properties</li>
     <li>If you do not define a constructor method. JavaScript class will add a empty constructor method.</li>
   </ul>
-
+  <h4>Example</h4>
+  <p id="cls"></p>
+  <script>
+    class Car{
+      constructor(name, year){
+        this.name = name;
+        this.year = year;
+      }
+    }
+    const myCar = new Car("BMW", 2014);
+    document.getElementById("cls").innerHTML ="My car name is " + myCar.name + " and year is " +myCar.year ;
+  </script>
   </body>
 </html>
