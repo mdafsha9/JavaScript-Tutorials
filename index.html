@@ -435,6 +435,23 @@
     <h3>Uses of class inheritance</h3>
     <p>Inheritance is useful for code reusability:reuse properties and methods of an exisitng class when we create a new class.</p>
     <h3>getters and setters</h3>
-    
+    <p>classes also allows to use getters and setters.<br>
+    It can be smart to use getters and setters for our properties.Especially, if we want to style something special with the value before returning them or before set them.</p>
+    <p id="f"></p>
+    <script>
+      class Fruits{
+        constructor(fruitname){
+          this.fname = fruitname;
+        }
+        get fruname(){
+          return this.fname;
+        }
+        set fruname(w){
+          this.fname = w;
+        }
+      }
+      let myFruit = new Fruits("Apple");
+      document.getElementById("f").innerHTML ="My fruit name is "+ myFruit.fruname;
+    </script>
   </body>
 </html>
