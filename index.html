@@ -78,9 +78,9 @@
     <p id="demo3"></p>
     <script>
     //JavaScript const variable cannot be reassigned
-      const p;
-      p = 3.2;
-      document.getElementById("demo3").innerHTML = p;
+      //const p;
+      //p = 3.2;
+      //document.getElementById("demo3").innerHTML = p;
     </script>
     <script>
       //JavaScript const keyword must be assigned a value when it is declared
@@ -405,5 +405,32 @@
     let myVehicle = new Vehicle("car", 2013);
     document.getElementById("veh").innerHTML = "My vehicle is " + myVehicle.age() + " years old.";
   </script>
+  <h2>Class inheritance</h2>
+  <p>To create a class inheritance, we can use extends keyword.<br>
+    A class created with a class inheritance inherits all the methods from another class.</p>
+    <h4>Create a class named Model which will inherit the methods from the Car class </h4>
+    <p id="ex"></p>
+    <script>
+      class Bike{
+        constructor(brand){
+          this.bikename = brand;
+        }
+        present(){
+          return "I have a " +this.bikename;
+        }
+      }
+        class Model extends Bike{
+          constructor(brand, mod){
+            super(brand);
+            this.model = mod;
+          }
+          show(){
+            return this.present()+ " and its model is " + this.model;
+          }
+        }
+        let myBike = new Model("Ford", "Mustang");
+        console.log(myBike.present());
+        console.log(myBike.show());
+    </script>
   </body>
 </html>
