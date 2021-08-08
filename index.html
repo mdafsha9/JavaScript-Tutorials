@@ -459,6 +459,7 @@
     We cannot call a static method on an object, only on an object class.</p>
     <h4>Example for class static</h4>
     <p id="em"></p>
+    <p id="emp"><?p>
     <script>
       class Employee{
         constructor(name){
@@ -470,6 +471,7 @@
       }
       let myEmp = new Car("Lorie");
       document.getElementById("em").innerHTML = Employee.hello();
+      document.getElementById("emp").innerHTML = myEmp.name;
     </script>
   </body>
 </html>
