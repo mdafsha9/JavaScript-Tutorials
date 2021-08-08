@@ -458,6 +458,18 @@
     <p>Static class method are defined on the class itself.<br>
     We cannot call a static method on an object, only on an object class.</p>
     <h4>Example for class static</h4>
-    
+    <p id="em"></p>
+    <script>
+      class Employee{
+        constructor(name){
+          this.name = name;
+        }
+        static hello(){
+          return "hello!";
+        }
+      }
+      let myEmp = new Car("Lorie");
+      document.getElementById("em").innerHTML = Employee.hello();
+    </script>
   </body>
 </html>
