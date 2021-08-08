@@ -465,12 +465,13 @@
         constructor(name){
           this.name = name;
         }
-        static hello(){
-          return "hello!";
+        static hello(x){
+          return "hello! " + x.name;
         }
       }
       let myEmp = new Car("Lorie");
-      document.getElementById("em").innerHTML = Employee.hello();
+      //if we want to use myEmp object inside the static method, we can send as parameter
+      document.getElementById("em").innerHTML = Employee.hello(myEmp);
       document.getElementById("emp").innerHTML = myEmp.name;
     </script>
   </body>
