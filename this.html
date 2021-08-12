@@ -42,5 +42,12 @@
       var x = this;
       document.getElementById("al").innerHTML = x;
     </script>
+    <h3>Alone, in strict mode, <b>this</b> refers to the Global object</h3>
+    <p id="als"></p>
+    <script>
+      "use strict";
+      var x = this;
+      document.getElementById("als").innerHTML = x;
+    </script>
   </body>
   </html>
