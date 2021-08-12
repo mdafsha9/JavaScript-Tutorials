@@ -57,5 +57,14 @@
       }
       document.getElementById("futhis").innerHTML = myFunction();
     </script>
+    <h3>In a function, in strict mode, <b>this</b> refers to the Global object</h3>
+    <p id="fusthis"></p>
+    <script>
+      "use strict";
+      document.getElementById("fusthis").innerHTML = strFunction();
+      function strFunction(){
+        return this;
+      }
+    </script>
   </body>
   </html>
