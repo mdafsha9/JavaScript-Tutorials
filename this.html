@@ -49,5 +49,13 @@
       var x = this;
       document.getElementById("als").innerHTML = x;
     </script>
+    <h3>In a function, <b>this</b> refers to the Global object</h3>
+    <p id="futhis"></p>
+    <script>
+      function myFunction(){
+        return this;
+      }
+      document.getElementById("futhis").innerHTML = myFunction();
+    </script>
   </body>
   </html>
