@@ -13,8 +13,17 @@
   <body>
     <h1>JavaScript</h1>
     <h2>this keyword</h2>
+    <p>The JavaScript <code>this</code> keyword refers to the object it belongs to.</p>
+    <h3>It has different values depending on where it is</h3>
+    <ul>
+      <li>In a method,<code>this</code> referes to the owner object.</li>
+      <li>Alone, <code>this</code> referes to the Global object</li>
+      <li>In a function also, <code>this</code> referes to the Global object</li>
+      <li>In a function, in a strict mode, <code>this</code> is undefined</li>
+      <li>In an event, <code>this</code> is element that received an event</li>
+      <li>In method call() and apply() can refer <code>this</code> to any object</li>
+    </ul>
 
-    
     <script src="this.js"></script>
   </body>
   </html>
