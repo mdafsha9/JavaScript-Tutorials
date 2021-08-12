@@ -58,3 +58,9 @@ function pracFunction(i,j){
   return sum;
 }
 document.getElementById("fe").innerHTML = pracFunction(8,5);
+
+let c = retFunction(5,5);
+document.getElementById("funret").innerHTML = c;
+function retFunction(A,B){
+  return A*B;
+}
