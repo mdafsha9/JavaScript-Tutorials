@@ -36,5 +36,11 @@
       };
       document.getElementById("met").innerHTML = person.fullName();
     </script>
+    <h3>Alone, <b>this</b> refers to the Global object</h3>
+    <p id="al"></p>
+    <script>
+      var x = this;
+      document.getElementById("al").innerHTML = x;
+    </script>
   </body>
   </html>
