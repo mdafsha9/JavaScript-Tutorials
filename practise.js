@@ -64,3 +64,8 @@ document.getElementById("funret").innerHTML = c;
 function retFunction(A,B){
   return A*B;
 }
+
+const m = function(k,l){
+  return k+l;
+}
+document.getElementById("funexp").innerHTML = m(2,2);
