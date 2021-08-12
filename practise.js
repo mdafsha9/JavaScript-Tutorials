@@ -52,3 +52,9 @@ document.getElementById("fncEx").innerHTML = j(5,6);
 
 let csFunction = new Function("i", "j", "return i-j");
 document.getElementById("cs").innerHTML = csFunction(9,2);
+
+function pracFunction(i,j){
+  var sum = i +j;
+  return sum;
+}
+document.getElementById("fe").innerHTML = pracFunction(8,5);
