@@ -71,6 +71,20 @@
     <h3>Explicit function binding</h3>
     <p>The call() & apply() methods are predefined JavaScript methods.<br>
     They both can be used to call an object method with another object as arguments.</p>
-    
+    <h4>Example</h4>
+    <p id="ca"></p>
+    <script>
+      const persona = {
+          fullName : function(){
+            return this.firstName + " " + this.lastName;
+        }
+      }
+      const person1 = {
+        firstName : "John",
+        lastName : "Doe"
+      }
+      let q = persona.fullName.call(person1);
+      document.getElementById("ca").innerHTML =q;
+    </script>
   </body>
   </html>
