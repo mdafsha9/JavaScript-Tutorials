@@ -156,11 +156,13 @@
     <p id="Mma"></p>
     <p id="MmaM"></p>
     <p id="Mmae"></p>
+    <p id="Mma0"></p>
     <script>
       document.getElementById("Mm").innerHTML = Math.max(1,2,3);
       document.getElementById("Mma").innerHTML = Math.max.apply(null, [1,2,3]);
       document.getElementById("MmaM").innerHTML = Math.max.apply(Math, [1,2,3]);
       document.getElementById("Mmae").innerHTML = Math.max.apply(" ", [1,2,3]);
+      document.getElementById("Mma0").innerHTML = Math.max.apply(0, [1,2,3]);
     </script>
   </body>
   </html>
