@@ -107,5 +107,21 @@
       document.getElementById("ac").innerHTML = f;
       document.getElementById("fr").innerHTML = g;
     </script>
+    <h3>The call() method with arguments</h3>
+    <p>call() method can accept arguments</p>
+    <p id="carg"></p>
+    <script>
+      const animal = {
+        animalNames : function(birds, flys){
+          return this.a1 + " and " + this.a2 + " are animals. " + birds + " is a bird and " + flys + " is a fly.";
+        }
+      }
+      const animal1 = {
+        a1 : "Horse",
+        a2 : "Lion"
+      }
+      let b = animal.animalNames.call(animal1, "Peocock", "honey-bee");
+      document.getElementById("carg").innerHTML = b;
+    </script>
   </body>
   </html>
