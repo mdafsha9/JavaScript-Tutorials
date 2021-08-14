@@ -86,5 +86,26 @@
       let q = persona.fullName.call(person1);
       document.getElementById("ca").innerHTML =q;
     </script>
+    <p id="ac"></p>
+    <p id="fr"></p>
+    <script>
+      const fruits = {
+          fNames: function(){
+          return this.f1 + " and " + this.f2;
+        }
+      }
+      var fruits1 = {
+        f1 : "Apple",
+        f2 : "Mango"
+      }
+      const fruits2 = {
+        f1 : "Orange",
+        f2 : "Goa"
+      }
+      let f = fruits.fNames.call(fruits1);
+      let g = fruits.fNames.call(fruits2);
+      document.getElementById("ac").innerHTML = f;
+      document.getElementById("fr").innerHTML = g;
+    </script>
   </body>
   </html>
