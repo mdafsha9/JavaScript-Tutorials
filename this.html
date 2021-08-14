@@ -68,9 +68,12 @@
     </script>
     <h3>In an event, <b>this</b> refers to the HTML element that received the event.</h3>
       <button onclick="this.style.display='none'">Click here to remove me!</button>
-    <h3>Explicit function binding</h3>
+    <h2>Explicit function binding</h2>
     <p>The call() & apply() methods are predefined JavaScript methods.<br>
     They both can be used to call an object method with another object as arguments.</p>
+    <h3>call() method</h3>
+    <h4>Method reuse</h4>
+    <p>With the call() method, we can wrire a method that can be used on different objects</p>
     <h4>Example</h4>
     <p id="ca"></p>
     <script>
@@ -123,5 +126,14 @@
       let b = animal.animalNames.call(animal1, "Peocock", "honey-bee");
       document.getElementById("carg").innerHTML = b;
     </script>
+    <h3>apply() method</h3>
+    <h4>Method reuse</h4>
+    <p>With the apply() method, we can write a method that can be used on different objects.</p>
+    <h3>difference between call() and apply() method</h3>
+    <p>apply() method is same as call() method.The only difference is:</p>
+    <ul>
+      <li>call() method takes arguments seperately</li>
+      <li>apply() method takes arguments as an array</li>
+    </ul>
   </body>
   </html>
