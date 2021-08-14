@@ -153,8 +153,10 @@
     <h2>Math.max() method</h2>
     <p>We can find the largest number in a list of numbers using Math.max() method</p>
     <p id="Mm"></p>
+    <p id="Mma"></p>
     <script>
       document.getElementById("Mm").innerHTML = Math.max(1,2,3);
+      document.getElementById("Mma").innerHTML = Math.max.apply(null, [1,2,3]);
     </script>
   </body>
   </html>
