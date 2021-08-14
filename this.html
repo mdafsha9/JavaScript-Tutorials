@@ -12,7 +12,7 @@
   </head>
   <body>
     <h1>JavaScript</h1>
-    <h2>this keyword</h2>
+    <h2 id="imp">this keyword</h2>
     <p>The JavaScript <b>this</b> keyword refers to the object it belongs to.</p>
     <h3>It has different values depending on where it is</h3>
     <ul>
@@ -68,10 +68,10 @@
     </script>
     <h3>In an event, <b>this</b> refers to the HTML element that received the event.</h3>
       <button onclick="this.style.display='none'">Click here to remove me!</button>
-    <h2>Explicit function binding</h2>
+    <h2 id="imp">Explicit function binding</h2>
     <p>The call() & apply() methods are predefined JavaScript methods.<br>
     They both can be used to call an object method with another object as arguments.</p>
-    <h3>call() method</h3>
+    <h3  id="imp">call() method</h3>
     <h4>Method reuse</h4>
     <p>With the call() method, we can wrire a method that can be used on different objects</p>
     <h4>Example</h4>
@@ -126,7 +126,7 @@
       let b = animal.animalNames.call(animal1, "Peocock", "honey-bee");
       document.getElementById("carg").innerHTML = b;
     </script>
-    <h3>apply() method</h3>
+    <h3  id="imp">apply() method</h3>
     <h4>Method reuse</h4>
     <p>With the apply() method, we can write a method that can be used on different objects.</p>
     <h3>difference between call() and apply() method</h3>
@@ -150,7 +150,7 @@
       let p = employee.empName.apply(employee1, [45, "Indian"]);
       document.getElementById("app").innerHTML = p;
     </script>
-    <h2>Math.max() method</h2>
+    <h2  id="imp">Math.max() method</h2>
     <p>In JavaScript strict mode, the first argument of the apply() method is not an object than it becomes owner(object) of the invoked function. In non-strict mode, it becomes global object.</p>
     <p>We can find the largest number in a list of numbers using Math.max() method</p>
     <p id="Mm"></p>
@@ -165,5 +165,9 @@
       document.getElementById("Mmae").innerHTML = Math.max.apply(" ", [1,2,3]);
       document.getElementById("Mma0").innerHTML = Math.max.apply(0, [1,2,3]);
     </script>
+    <h2 id="imp">JavaScript Closures</h2>
+    <p>JavaScript variables can belong to the Global or Local scope.<br>
+    Global variables can be made local with closures.</p>
+    <h3></h3>
   </body>
   </html>
