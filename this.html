@@ -168,8 +168,13 @@
     <h2 id="imp">JavaScript Closures</h2>
     <p>JavaScript variables can belong to the Global or Local scope.<br>
     Global variables can be made local with closures.</p>
-    <p>A function can access all variables defined inside the function is called Local variables.</p>
+    <ul>
+      <li>In a web page, Global variables belongs to the window object</li>
+      <li>Global variables can be used by all script in the page</li>
+      <li>Local variables can only be used inside the function where it is defined. It is hidden from other function and other scripting codes.</li>
+    </ul>
     <h3>Local variable example</h3>
+    <p>A function can access all variables defined inside the function is called Local variables.</p>
     <p id="Lova"></p>
     <script>
       function locFunction(){
@@ -179,6 +184,7 @@
       document.getElementById("Lova").innerHTML = locFunction();
     </script>
     <h3>Global variable example</h3>
+    <p>A function can access all variables defined outside the function is called Global variables.</p>
     <p id="glva"></p>
     <script>
     let v = 5;
