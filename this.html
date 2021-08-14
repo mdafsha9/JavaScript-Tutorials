@@ -135,5 +135,20 @@
       <li>call() method takes arguments seperately</li>
       <li>apply() method takes arguments as an array</li>
     </ul>
+    <h4>apply() method example</h4>
+    <p id="app"></p>
+    <script>
+      const employee = {
+        empName : function(age, country){
+          return this.fName+ " " + this.lName + " is "+ age + " years old and he is an " + country;
+        }
+      }
+      const employee1 = {
+        fName : "Brown",
+        lName: "Lie"
+      }
+      let p = employee.empName.apply(employee1, [45, "Indian"]);
+      document.getElementById("app").innerHTML = p;
+    </script>
   </body>
   </html>
