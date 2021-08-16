@@ -71,12 +71,3 @@ const m = function(k,l){
 document.getElementById("funexp").innerHTML = m(2,2);
 
 //this keywords
-const person = {
-  firstName:"Lorie",
-  lastName:"Wright",
-  age:50,
-  fullName: funcion(){
-    return this.firstName + " " + this.lastName;
-  }
-};
-document.getElementById("met").innerHTML = person.fullName();

@@ -195,5 +195,22 @@
     document.getElementById("glva").innerHTML = glFunction();
     </script>
     <h3>variable lifetime</h3>
+    <p>Global variable lives until the page is discarded, like when you navigate to another page or close the window.<br>
+    Local variable have short lives. They are created when a function is invoked and deleted when the function is finished</p>
+    <h4>Counter Dilemma</h4>
+    <p>Here we want use variable to counter something, and we want use this counter available to all functions.<br>
+    So we could use a Global variable, and a function to increase the counter.</p>
+    <p id="cd"></p>
+    <script>
+      var h = 0;
+      function add(){
+       h=h+1;
+      }
+      add();
+      add();
+      add();
+      add();
+      document.getElementById("cd").innerHTML = h;
+    </script>
   </body>
   </html>
