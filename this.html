@@ -197,7 +197,7 @@
     <h3>variable lifetime</h3>
     <p>Global variable lives until the page is discarded, like when you navigate to another page or close the window.<br>
     Local variable have short lives. They are created when a function is invoked and deleted when the function is finished</p>
-    <h4>Counter Dilemma</h4>
+    <h4>Counter Dilemma declare a variable globally</h4>
     <p>Here we want use variable to counter something, and we want use this counter available to all functions.<br>
     So we could use a Global variable, and a function to increase the counter.</p>
     <p id="cd"></p>
@@ -211,6 +211,20 @@
       add();
       add();
       document.getElementById("cd").innerHTML = h;
+    </script>
+    <h4>Counter Dilemma declare a variable global & local</h4>
+    <p id="gl"></p>
+    <script>
+      var s = 0;
+      function adding(){
+        var s=0;
+        s += 1;
+      }
+      adding();
+      adding();
+      adding();
+      adding();
+      document.getElementById("gl").innerHTML = s;
     </script>
   </body>
   </html>
