@@ -213,6 +213,7 @@
       document.getElementById("cd").innerHTML = h;
     </script>
     <h4>Counter Dilemma declare a variable global & local</h4>
+    <p>It will not work because we declare a variable both global and local</p>
     <p id="gl"></p>
     <script>
       var s = 0;
@@ -225,6 +226,21 @@
       adding();
       adding();
       document.getElementById("gl").innerHTML = s;
+    </script>
+    <h4>Counter Dilemma declare a variable locally</h4>
+    <p>It will also not work because we declare a variable locally</p>
+    <p id="Loc"></p>
+    <script>
+      function added(){
+        var t=0;
+        t += 1;
+        return t;
+      }
+      added();
+      added();
+      added();
+      added();
+      document.getElementById("Loc").innerHTML = added();
     </script>
   </body>
   </html>
