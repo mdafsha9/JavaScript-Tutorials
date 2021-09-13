@@ -38,7 +38,7 @@
     <ul>
       <li>JavaScript variables can contain single value.</li>
       <li>
-        <h3>Example:</h3>
+        <h3>Example for single value:</h3>
         <p id="sing"></p>
         <script>
           let fullName = "John Hue";
@@ -49,6 +49,20 @@
       <li>JavaScript objects are variables too. But it contains many values.</li>
       <li>JavaScript objects are named and value pair (name and value seperated by colon)</li>
       <li>A JavaScript object is a collection of named values.It is a common practise to declare a object with the <q>const</q> keyword</li>
+      <li>
+        <h3>Example for many values:</h3>
+        <p id="many"></p>
+        <script>
+          const person = {
+            firstName : "John",
+            lastName : "Wright",
+            age : 35,
+            color : "Brown"
+          }
+          document.getElementById("many").innerHTML = person.firstName + " " + person.lastName + " is a " + person.age + " old."
+        </script>
+      </li>
     </ul>
+
   </body>
   </html>
