@@ -59,7 +59,7 @@
             age : 35,
             color : "Brown"
           }
-          document.getElementById("many").innerHTML = person.firstName + " " + person.lastName + " is a " + person.age + " old."
+          document.getElementById("many").innerHTML = person.firstName + " " + person.lastName + " is a " + person.age + " years old."
         </script>
       </li>
     </ul>
@@ -78,7 +78,12 @@
       <li>Using object literals, we can define and create in one statement</li>
       <li>An object literal is a list of name:value pairs</li>
     </ul>
-    
+    <h4>Example1 for creating an object using object literals</h4>
+    <p id="objLit"></p>
+    <script>
+      const employee = {firstName:"Lorie", lastName:"Bros", age:50, color:"blue"};
+      document.getElementById("objLit").innerHTML = employee.firstName + " " + employee.lastName + " is a " + employee.age + " years old."
+    </script>
 
   </body>
   </html>
