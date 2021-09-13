@@ -109,6 +109,15 @@
     </script>
     <h3>Using a JavaScript keyword new</h3>
     <p>creating a new JavaScript object using new Object() and then add properties.</p>
-    <h4></h4>
+    <h4>Example for creating object using a JavaScript keyword new</h4>
+    <p id="newk"></p>
+    <script>
+      const college = new Object();
+      college.firstName = "Ham",
+      college.lastName = "Tom",
+      college.course = "English",
+      college.year = "Final year"
+      document.getElementById("newk").innerHTML = college.firstName + " " + college.lastName + " is a " + college.year + " student.";
+    </script>
   </body>
   </html>
