@@ -130,7 +130,21 @@
     <h3>Accessing JavaScript properties</h3>
     <p>Syntax for accessing JavaScript properties</p>
     <span>objectname.property<mark>person.firstName</mark></span><br>
-    <span>objectname["property"]<mark>person["firstName"]</mark></span>
+    <span>objectname["property"]<mark>person["firstName"]</mark></span><br>
     <span>objectname[expression]<mark>person[x](x = "age";)</mark></span>
+    <h3>Adding new properties</h3>
+    <p>We can add a new property of an existing object by giving its value.</p>
+    <h4>Example for add new property</h4>
+    <p id="veh"></p>
+    <script>
+      const vehicle = {
+        bus : "Yellow",
+        bike : "red",
+        car : "black"
+      };
+      vehicle.scooty = "white";
+      document.getElementById("veh").innerHTML = "My scooty color is " + vehicle.scooty;
+
+    </script>
   </body>
   </html>
