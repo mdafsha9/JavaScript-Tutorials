@@ -151,5 +151,17 @@
     <li>The delete operator desinged to be used an object properties. It has no effect on variables or functions </li>
     <li>The delete operator cannot be used on predefined JavaScript objects. It can crash our application.</li>
   </ul>
+  <h4>Example for deleting property of an exisitng object</h4>
+  <p id="del"></p>
+  <script>
+    const course = {
+      subject1 : "English",
+      subject2 : "Spanish",
+      subject3 : "French",
+      subject4 : "Germany"
+    };
+    delete course.subject3;
+    document.getElementById("del").innerHTML = "I removed my subject " + course.subject3;
+  </script>
   </body>
   </html>
