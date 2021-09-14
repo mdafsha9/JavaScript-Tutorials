@@ -166,7 +166,19 @@
   <h3>Nested objects</h3>
   <p>Values in an object can be another object</p>
   <h4>Example for nested objects</h4>
+  <p id="peop"></p>
   <script>
+    const people = {
+      firstName:"White",
+      lastName : "Cole",
+      age : 30,
+      cars : {
+        car1 : "BMW",
+        car2 : "Volvo",
+        car3 : "Honda"
+      }
+    }
+    document.getElementById("peop").innerHTML = "My first car is " + people.cars.car1;
   </script>
   </body>
   </html>
