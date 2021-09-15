@@ -257,5 +257,18 @@
     };
     document.getElementById("lop").innerHTML = txt;
   </script>
+  <h3>Displaying the object using Object.values()</h3>
+  <p>JavaScript object is converted into an array using Object.values()</p>
+  <p id="obj"></p>
+  <script>
+    const vegies = {
+      v1 : "Tomato",
+      v2 : "Brinjal",
+      v3 : "Potato"
+    };
+    const myArray = Object.values(vegies);
+    document.getElementById("obj").innerHTML = myArray;
+
+  </script>
   </body>
   </html>
