@@ -243,5 +243,19 @@
     };
     document.getElementById("nam").innerHTML = man.firstName + ", " + man.lastName + ", " +man.age;
   </script>
+  <h3>Display the object properties in a loop:</h3>
+  <p id="lop"></p>
+  <script>
+    const women = {
+      firstName : "Lorie",
+      lastName : "Wright",
+      age : 40
+    };
+    let txt="";
+    for(let x in women){
+      txt += women[x] + ", ";
+    };
+    document.getElementById("lop").innerHTML = txt;
+  </script>
   </body>
   </html>
