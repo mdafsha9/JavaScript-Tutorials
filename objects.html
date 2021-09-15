@@ -187,7 +187,7 @@
     <li>Methods are functions stored as object properties</li>
   </ul>
   <p id="me"></p>
-  <h4>Example for JavaScript object method</h4>
+  <h4>Example for JavaScript object method/Accessing object methods</h4>
   <script>
     const user = {
       firstName : "Mohan",
@@ -198,6 +198,19 @@
       }
     };
     document.getElementById("me").innerHTML = user.fullName();
+  </script>
+  <h3>Adding a method to an object</h3>
+  <p id="addMeth"></p>
+  <script>
+    const car = {
+      model : "Honda Accord",
+      year : 2000,
+      color : "black"
+    };
+    car.design = function(){
+      return this.model +" " + car.color + " color car was purchased in the year " + car.year;
+    }
+    document.getElementById("addMeth").innerHTML = car.design();
   </script>
   </body>
   </html>
