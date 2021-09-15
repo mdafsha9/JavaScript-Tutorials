@@ -213,6 +213,25 @@
     document.getElementById("addMeth").innerHTML = car.design();
   </script>
   <h3>Using built-in methods</h3>
-  
+  <p id="bui"></p>
+  <script>
+    const fruit = {
+      name : 'Apple',
+      color : "red",
+      content : "water"
+    };
+    fruit.fullName = function(){
+      return (this.name + " is a " + this.content + " content " + this.color + " color fruit.").toUpperCase();
+    }
+    document.getElementById("bui").innerHTML = fruit.fullName();
+  </script>
+  <h2>JavaScript display objects</h2>
+  <p>Some common solutions to display JavaScript objects are:</p>
+  <ul>
+    <li>Displaying the object properties by name </li>
+    <li>Displaying the object properties in a lopp</li>
+    <li>Displaying the object using Object.values()</li>
+    <li>Displaying the object using JSON.stringify()</li>
+  </ul>
   </body>
   </html>
