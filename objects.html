@@ -186,5 +186,18 @@
     <li>JavaScript method is a property containing a function defination</li>
     <li>Methods are functions stored as object properties</li>
   </ul>
+  <p id="me"></p>
+  <h4>Example for JavaScript object method</h4>
+  <script>
+    const user = {
+      firstName : "Mohan",
+      lastName : "Crews",
+      age : 35,
+      fullName : function(){
+        return this.firstName + " " + this.lastName;
+      }
+    };
+    document.getElementById("me").innerHTML = user.fullName();
+  </script>
   </body>
   </html>
