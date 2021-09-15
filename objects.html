@@ -233,5 +233,15 @@
     <li>Displaying the object using Object.values()</li>
     <li>Displaying the object using JSON.stringify()</li>
   </ul>
+  <h3>Display the object properties by name:</h3>
+  <p id="nam"></p>
+  <script>
+    const man = {
+      firstName : "Mathew",
+      lastName : "Brown",
+      age : 35
+    };
+    document.getElementById("nam").innerHTML = man.firstName + ", " + man.lastName + ", " +man.age;
+  </script>
   </body>
   </html>
