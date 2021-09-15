@@ -268,7 +268,17 @@
     };
     const myArray = Object.values(vegies);
     document.getElementById("obj").innerHTML = myArray;
-
+  </script>
+  <h3>Displaying the object using JSON.stringify()</h3>
+  <p>A JavaScript object can be stringified (converted to a string) with the JavaScript function JSON.stringify()</p>
+  <p id="str"></p>
+  <script>
+    const meat = {
+      m1 : "chicken",
+      m2 : "lamp",
+      m3 : "pork"
+    };
+    document.getElementById("str").innerHTML = JSON.stringify(meat);
   </script>
   </body>
   </html>
