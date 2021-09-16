@@ -290,5 +290,15 @@
     };
     document.getElementById("dat").innerHTML = JSON.stringify(personInf);
   </script>
+  <h3>Stringify functions</h3>
+  <p>JSON.stringify will not stringify functions</p>
+  <p id="func"></p>
+  <script>
+    const person1 = {
+      name : "Lousi",
+      age : function(){ return 30;}
+    };
+    document.getElementById("func").innerHTML = JSON.stringify(person1);
+  </script>
   </body>
   </html>
