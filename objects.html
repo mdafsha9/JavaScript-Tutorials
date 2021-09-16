@@ -300,5 +300,15 @@
     };
     document.getElementById("func").innerHTML = JSON.stringify(person1);
   </script>
+  <h4>This can be fixe if we convert the function into string before we stringify</h4>
+  <p id="func1"></p>
+  <script>
+    const person2 = {
+      name : "Grey",
+      age : function(){ return 30;}
+    };
+    person2.age = person2.age.toString();
+    document.getElementById("func1").innerHTML = JSON.stringify(person2);
+  </script>
   </body>
   </html>
