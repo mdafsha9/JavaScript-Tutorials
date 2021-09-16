@@ -280,6 +280,15 @@
     };
     document.getElementById("str").innerHTML = JSON.stringify(meat);
   </script>
-  
+  <h3>Stringify Dates</h3>
+  <p>JSON.stringify converts dates into string</p>
+  <p id="dat"></p>
+  <script>
+    const personInf = {
+      name : "Louise",
+      today : new Date()
+    };
+    document.getElementById("dat").innerHTML = JSON.stringify(personInf);
+  </script>
   </body>
   </html>
