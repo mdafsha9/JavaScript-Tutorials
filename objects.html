@@ -320,6 +320,20 @@
   <h2>JavaScript Object Accessors</h2>
   <p>ECMA5 introduced getters and setters.<br>
   Getters and Setters allows we to define JavaScript object Accessors (computed properties)</p>
-  
+  <h3>JavaScript getters (The get keyword)</h3>
+  <p>Here we use cour property to get the value of course property</p>
+  <p id="ge"></p>
+  <script>
+    const student1 = {
+      firstName : "Patel",
+      lastName : "Noida",
+      age : 25,
+      course : "English",
+      get cour(){
+        return this.course;
+      }
+    };
+    document.getElementById("ge").innerHTML = student1.cour;
+  </script>
   </body>
   </html>
