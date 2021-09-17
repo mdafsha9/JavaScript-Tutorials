@@ -383,5 +383,19 @@
     <li>Example2 access fullNAme as a property: student4.fullName; </li>
     <li>The second example provides a simple syntax</li>
   </ul>
+  <h3>Data Quality</h3>
+  <p>JavaScript can secure better data quality when using getters and setters.<br>
+  Here we are using fName property in the example return the firstName property in the uppercase</p>
+  <p id="dq"></p>
+  <script>
+    const person3 = {
+      firstName : "Neil",
+      lastName : "Degross",
+      get fName(){
+        return this.firstName.toUpperCase();
+      }
+    };
+    document.getElementById("dq").innerHTML = person3.fName;
+  </script>
   </body>
   </html>
