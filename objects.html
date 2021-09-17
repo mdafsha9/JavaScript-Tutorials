@@ -397,5 +397,18 @@
     };
     document.getElementById("dq").innerHTML = person3.fName;
   </script>
+  <p>Here we are using lName in the example to store uppercase lastName in the lastName property.</p>
+  <p id="dq1"></p>
+  <script>
+    const person4 = {
+      firstName : "Brown",
+      lastName : " ",
+      set lName(value){
+        this.lastName = value.toUpperCase();
+      }
+    };
+    person4.lName = "White";
+    document.getElementById("dq1").innerHTML = person4.lastName;
+  </script>
   </body>
   </html>
