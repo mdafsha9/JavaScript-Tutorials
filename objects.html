@@ -351,5 +351,18 @@
     student2.cour = "Hindi";
     document.getElementById("se").innerHTML= student2.course;
   </script>
+  <h3>JavaScript function or getter ?</h3>
+  <p>What is the difference between this two</p>
+  <p id="s3"></p>
+  <script>
+    const student3 = {
+      firstName : "Morie",
+      lastName : "Wright",
+      fullName : function(){
+        return this.firstName + " " + this.lastName;
+      }
+    };
+    document.getElementById("s3").innerHTML = student3.fullName();
+  </script>
   </body>
   </html>
