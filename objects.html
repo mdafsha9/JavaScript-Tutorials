@@ -353,6 +353,7 @@
   </script>
   <h3>JavaScript function or getter ?</h3>
   <p>What is the difference between this two</p>
+  <h4>Example1 for JavaScript Function</h4>
   <p id="s3"></p>
   <script>
     const student3 = {
@@ -363,6 +364,18 @@
       }
     };
     document.getElementById("s3").innerHTML = student3.fullName();
+  </script>
+  <h4>Example2 for Javascript getter</h4>
+  <p id="get"></p>
+  <script>
+  const student4 = {
+    firstName : "Morie",
+    lastName : "Wright",
+    get fullName(){
+      return this.firstName + " " + this.lastName;
+    }
+  };
+  document.getElementById("get").innerHTML = student4.fullName;
   </script>
   </body>
   </html>
