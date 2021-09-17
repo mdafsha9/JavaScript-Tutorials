@@ -335,5 +335,21 @@
     };
     document.getElementById("ge").innerHTML = student1.cour;
   </script>
+  <h3>JavaScript Object setter(The set keyword)</h3>
+  <p>Here we use cour property to set the value of course property</p>
+  <p id="se"></p>
+  <script>
+    const student2 = {
+      firstName : "John",
+      lastName :"Matt",
+      age : 50,
+      course : " ",
+      set cour(value){
+        this.course = value;
+      }
+    };
+    student2.cour = "Hindi";
+    document.getElementById("se").innerHTML= student2.course;
+  </script>
   </body>
   </html>
