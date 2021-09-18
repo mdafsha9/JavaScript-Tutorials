@@ -36,6 +36,19 @@
       <li>assign the arrguments as JOhn and Doe to the firstname and lastname proeprties </li>
       <li>return the this value</li>
     </ul>
+    <h3>Adding method to a constructor function</h3>
+    <p id="add"></p>
+    <script>
+      function Employee(firstname, lastname){
+        this.firstname = firstname;
+        this.lastname = lastname;
+        this.fullname = function(){
+          return this.firstname + " " + this.lastname;
+        }
+      }
+      const myEmployee = new Employee("John", "Doe");
+      document.getElementById("add").innerHTML = myEmployee.fullname();
+    </script>
     <p id="demo"></p>
     <script>
       function Person(fName, lName, age, eye){
