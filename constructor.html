@@ -12,6 +12,17 @@
   </head>
   <body>
     <h1>JavaScript</h1>
-    <h2>JavaScript objects</h2>
+    <h2>JavaScript object constructor</h2>
+    <p id="demo"></p>
+    <script>
+      function Person(fName, lName, age, eye){
+        this.firstName = fName;
+        this.lastName = lName;
+        this.age = age;
+        this.eyeColor = eye;
+      }
+      const myFather = new Person("Martin", "Geargie", 45, "blue");
+      document.getElementById("demo").innerHTML = "My father's age is " + myFather.age;
+    </script>
   </body>
   </html>
