@@ -101,4 +101,14 @@ const person3 = {
   eyeColor : "blue"
 };
 person3.country = "Indian"
-document.getElementById("add").innerHTML = person3.country; 
+document.getElementById("add").innerHTML = person3.country;
+
+//deleting a property
+const person4 = {
+  firstName : "Matt",
+  lastName : "Lee",
+  age : 45,
+  eyeColor : "blue"
+}
+delete person4.age;
+document.getElementById("del").innerHTML = person4.age;
