@@ -78,3 +78,10 @@ const person = {
   eyeColor : "blue"
 };
 document.getElementById("obj").innerHTML = person.firstName + " " + person.lastName + " is " + person.age + " years old.";
+
+//empty Javascript object
+const person1 = {};
+person1.firstName = "Peteer";
+person1.lastName = "Maid";
+person1.age = 29;
+document.getElementById("empty").innerHTML = person1.age;
