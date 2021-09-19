@@ -85,3 +85,10 @@ person1.firstName = "Peteer";
 person1.lastName = "Maid";
 person1.age = 29;
 document.getElementById("empty").innerHTML = person1.age;
+
+//created a new javascript Objects
+const person2 = new Object();
+person2.firstName = "Peteer";
+person2.lastName = "Maid";
+person2.age = 29;
+document.getElementById("empty").innerHTML = person2.lastName;
