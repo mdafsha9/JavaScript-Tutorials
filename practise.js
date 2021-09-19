@@ -70,4 +70,11 @@ const m = function(k,l){
 }
 document.getElementById("funexp").innerHTML = m(2,2);
 
-//this keywords
+//Javascript Objects
+const person = {
+  firstName : "Matt",
+  lastName : "Lee",
+  age : 45,
+  eyeColor : "blue"
+};
+document.getElementById("obj").innerHTML = person.firstName + " " + person.lastName + " is " + person.age + " years old.";
