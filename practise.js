@@ -92,3 +92,13 @@ person2.firstName = "Peteer";
 person2.lastName = "Maid";
 person2.age = 29;
 document.getElementById("empty").innerHTML = person2.lastName;
+
+//adding a property
+const person3 = {
+  firstName : "Matt",
+  lastName : "Lee",
+  age : 45,
+  eyeColor : "blue"
+};
+person3.country = "Indian"
+document.getElementById("add").innerHTML = person3.country; 
