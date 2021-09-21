@@ -112,3 +112,7 @@ const person4 = {
 }
 delete person4.age;
 document.getElementById("del").innerHTML = person4.age;
+
+//object variables can contain single values(varsingle)
+let person5 = "Morie Doe";
+document.getElementById("varsingle").innerHTML = person5;
