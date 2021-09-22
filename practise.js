@@ -162,3 +162,11 @@ const person11 = {
 };
 delete person11.nationality;
 document.getElementById("properdel").innerHTML = person11.nationality;
+
+//nested Objects
+const myPerson = {
+  name : "John Doe",
+  age : 25,
+  cars : {car1 : "BMW", car2 : "Volvo", car3 : "Accord"}
+};
+document.getElementById("ne").innerHTML = myPerson.cars.car2;
