@@ -191,3 +191,9 @@ document.getElementById("alone").innerHTML = i;
 "use strict"
 let o = this;
 document.getElementById("strialone").innerHTML = o;
+
+//in a function this refers to global objects
+function myFunction(){
+  return this;
+}
+document.getElementById("funthi").innerHTML = myFunction();
