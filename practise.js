@@ -188,7 +188,7 @@ let i = this;
 document.getElementById("alone").innerHTML = i;
 
 //alone, in a strict mode, this keyword is global object
-"use strict"
+"use strict";
 let o = this;
 document.getElementById("strialone").innerHTML = o;
 
@@ -197,3 +197,10 @@ function myFunction(){
   return this;
 }
 document.getElementById("funthi").innerHTML = myFunction();
+
+//in a function, in a strict mode,  this refers to undefined
+"use strict";
+document.getElementById("unde").innerHTML = myFunc();
+function myFunc(){
+  return this;
+}
