@@ -145,3 +145,11 @@ person9.lastName = "Tom";
 person9.age = 30;
 person9.eyeColor = "black";
 document.getElementById("objnew").innerHTML = person9.firstName + " " + person9.lastName + " is " + person9.age + " years old.";
+
+//adding a new property
+const person10 = {
+  firstName : "Lossie",
+  lastName : "Marine"
+};
+person10.nationality = "English";
+document.getElementById("propernew").innerHTML = person10.nationality;
