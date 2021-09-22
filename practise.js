@@ -186,3 +186,8 @@ document.getElementById("objme").innerHTML = myPerson1.fullName();
 //alone this keyword is global objects
 let i = this;
 document.getElementById("alone").innerHTML = i;
+
+//alone, in a strict mode, this keyword is global object
+"use strict"
+let o = this;
+document.getElementById("strialone").innerHTML = o;
