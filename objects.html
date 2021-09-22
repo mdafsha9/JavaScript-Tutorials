@@ -418,6 +418,18 @@
     <li>It is useful to do things behind-the-scenes</li>
   </ul>
   <h2>Javascript object constructor</h2>
-  <
+  <p>Creating a object constructor</p>
+  <p id="objcon"></p>
+  <script>
+    function Student(first, last, age, eye) {
+      this.firstName = first;
+      this.lastName = last;
+      this.age = age;
+      this.eyeColor = eye;
+    }
+    const myFather = new Student("John", "Doe", 32, "Blue");
+    const myMother = new Student("Kaya", "Lie", 26, "Black");
+    document.getElementById("objcon").innerHTML = myFather.eyeColor;
+  </script>
   </body>
   </html>
