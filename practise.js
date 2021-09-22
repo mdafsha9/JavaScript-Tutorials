@@ -118,9 +118,14 @@ let person5 = "Morie Doe";
 document.getElementById("varsingle").innerHTML = person5;
 
 //objects are variables too. But can contain many values
-const person6 = {
-  firstName : "Chart",
-  lastName : "Croo",
-  age :65
-};
+const person6 = {firstName : "Chart", lastName : "Croo", age :65};
 document.getElementById("varmany").innerHTML = person6.age;
+
+//create an object using object objliterals
+const person7 = {
+  firstName : "Rose",
+  lastName : "Jazz",
+  age : 26,
+  eyeColor : "Blue"
+};
+document.getElementById("objliterals").innerHTML = person7.firstName + " " + person7.lastName + " eye color is " + person7.eyeColor; 
