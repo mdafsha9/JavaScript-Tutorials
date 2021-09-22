@@ -182,3 +182,7 @@ fullName : function(){
 }
 };
 document.getElementById("objme").innerHTML = myPerson1.fullName();
+
+//alone this keyword is global objects
+let i = this;
+document.getElementById("alone").innerHTML = i;
