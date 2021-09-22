@@ -131,10 +131,17 @@ const person7 = {
 document.getElementById("objliterals").innerHTML = person7.firstName + " " + person7.lastName + " eye color is " + person7.eyeColor;
 
 //create an empty JavaScript object and then add properties
-const person8 = {
-  firstName : "Jack",
-  lastName : "Jardon",
-  age : 30,
-  hairColor : "Brown"
-};
+const person8 = {};
+  person8.firstName = "Jack";
+  person8.lastName = "Jardon";
+  person8.age = 30;
+  person8.hairColor = "Brown";
 document.getElementById("objempty").innerHTML = person8.firstName + " " + person8.lastName + " hair color is " + person8.hairColor;
+
+//create a new javascript object and then add properties
+const person9 = new Object();
+person9.firstName = "Sunny";
+person9.lastName = "Tom";
+person9.age = 30;
+person9.eyeColor = "black";
+document.getElementById("objnew").innerHTML = person9.firstName + " " + person9.lastName + " is " + person9.age + " years old.";
