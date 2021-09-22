@@ -170,3 +170,15 @@ const myPerson = {
   cars : {car1 : "BMW", car2 : "Volvo", car3 : "Accord"}
 };
 document.getElementById("ne").innerHTML = myPerson.cars.car2;
+
+//javascript object method
+const myPerson1 = {
+firstName : "Leen",
+lastName : "Tom",
+age : 30,
+eyeColor : "black",
+fullName : function(){
+  return this.firstName + " " + this.lastName;
+}
+};
+document.getElementById("objme").innerHTML = myPerson1.fullName();
