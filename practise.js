@@ -153,3 +153,12 @@ const person10 = {
 };
 person10.nationality = "English";
 document.getElementById("propernew").innerHTML = person10.nationality;
+
+//delete a property
+const person11 = {
+  firstName : "Lossie",
+  lastName : "Marine",
+  nationality : "English"
+};
+delete person11.nationality;
+document.getElementById("properdel").innerHTML = person11.nationality;
