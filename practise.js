@@ -116,3 +116,11 @@ document.getElementById("del").innerHTML = person4.age;
 //object variables can contain single values(varsingle)
 let person5 = "Morie Doe";
 document.getElementById("varsingle").innerHTML = person5;
+
+//objects are variables too. But can contain many values
+const person6 = {
+  firstName : "Chart",
+  lastName : "Croo",
+  age :65
+};
+document.getElementById("varmany").innerHTML = person6.age;
