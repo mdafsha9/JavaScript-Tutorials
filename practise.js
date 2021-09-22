@@ -128,4 +128,13 @@ const person7 = {
   age : 26,
   eyeColor : "Blue"
 };
-document.getElementById("objliterals").innerHTML = person7.firstName + " " + person7.lastName + " eye color is " + person7.eyeColor; 
+document.getElementById("objliterals").innerHTML = person7.firstName + " " + person7.lastName + " eye color is " + person7.eyeColor;
+
+//create an empty JavaScript object and then add properties
+const person8 = {
+  firstName : "Jack",
+  lastName : "Jardon",
+  age : 30,
+  hairColor : "Brown"
+};
+document.getElementById("objempty").innerHTML = person8.firstName + " " + person8.lastName + " hair color is " + person8.hairColor;
