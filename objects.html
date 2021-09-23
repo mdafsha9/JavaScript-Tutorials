@@ -431,5 +431,32 @@
     const myMother = new Student("Kaya", "Lie", 26, "Black");
     document.getElementById("objcon").innerHTML = myFather.eyeColor;
   </script>
+  <h3>adding a property to an object</h3>
+  <p id="addpro"></p>
+  <script>
+    function stud(first, last, id){
+      this.firstName = first;
+      this.lastName = last;
+      this.id = id;
+    };
+    const myStudent1 = new stud("Rahul", "Mishra", 10212);
+    myStudent1.nationality = "Indian";
+    document.getElementById("addpro").innerHTML = myStudent1.nationality;
+  </script>
+  <h3>Adding method to an object</h3>
+  <p id="addmeth"></p>
+  <script>
+    function stude(first, last, age, eye){
+      this.firstName = first;
+      this.lastName = last;
+      this.age = age;
+      this.eyeColor = eye;
+    };
+    const myStudent9 = new stude("Mohan", "Glore", 25, "black");
+    myStudent9.name = function(){
+      return this.firstName + " " + this.lastName;
+    }
+    document.getElementById("addmeth").innerHTML = myStudent9.name();
+  </script>
   </body>
   </html>
