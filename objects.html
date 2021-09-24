@@ -487,5 +487,21 @@
   const myBuddy = new myProto("Matri", "Krooks", 25, "Blue");
   document.getElementById("proto").innerHTML = myBuddy.nationality;
   </script>
+
+  <h3>Adding new method to an object constructor</h3>
+  <p id="meth"></p>
+  <script>
+    function myMeth(first, last, age, eye){
+      this.firstName = first;
+      this.lastName = last;
+      this.age = age;
+      this.eyeColor = eye;
+    }
+    myMeth.prototype.name = function(){
+      return this.firstName + " " + this.lastName;
+    }
+    const myDarg = new myMeth("Fara", "Doe", 25, "black");
+    document.getElementById("meth").innerHTML = myDarg.name();
+  </script>
   </body>
   </html>
