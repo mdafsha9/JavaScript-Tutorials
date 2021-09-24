@@ -469,6 +469,23 @@
     <li>Objects .prototype is on the top of prototytpe inheritance chain</li>
     <li>Date objects, Array objects and person objects inherit from object.prototype.</li>
   </ul>
-  
+  <h3>Adding properties and methods to object</h3>
+  <p>Sometimes we want to add properties and methods to all existing objects of a given type.<br>
+  Sometimes we want to add properties and methods to object constructor</p>
+  <h4>Using prototype property:</h4>
+  <p>The Javascript prototype property allows we to add properties or methods to object constructor</p>
+  <p id="proto"></p>
+  <script>
+    function myProto(first, last, age, eye){
+     this.firstName = first;
+     this.lastName = last;
+     this.age = age;
+    this.eyeColor = eye;
+  }
+  myProto.prototype.nationality = "English";
+
+  const myBuddy = new myProto("Matri", "Krooks", 25, "Blue");
+  document.getElementById("proto").innerHTML = myBuddy.nationality;
+  </script>
   </body>
   </html>
