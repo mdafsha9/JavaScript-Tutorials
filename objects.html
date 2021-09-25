@@ -507,5 +507,16 @@
   <h2>Javascript object iterables</h2>
   <p>Objects can be iterated over with for..of are called iterables<br>
   Technically, Iterables must implement the Symbol.iterator method.</p>
+  <h3>Iterables over a string</h3>
+  <p id="iterStr"></p>
+  <script>
+    let name = "Tutorials";
+    let text = ""
+    for(const h of name){
+      text += h + "<br>";
+    }
+    document.getElementById("iterStr").innerHTML = text;
+
+  </script>
   </body>
   </html>
