@@ -545,5 +545,24 @@
       </ul>
     </li>
   </ul>
+  <h3>Home Made Iterables</h3>
+  <p id="HMI"></p>
+  <script>
+    function myHome(){
+      let n = 0;
+      return{
+        next : function(){
+          n +=10;
+          return{value:n , done:true}
+        }
+      }
+    }
+    //craete an iterables
+    let n = myHome();
+    n.next();
+    n.next();
+    document.getElementById("HMI").innerHTML = n.next().value;
+
+  </script>
   </body>
   </html>
