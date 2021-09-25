@@ -507,7 +507,7 @@
   <h2>Javascript object iterables</h2>
   <p>Objects can be iterated over with for..of are called iterables<br>
   Technically, Iterables must implement the Symbol.iterator method.</p>
-  <h3>Iterables over a string</h3>
+  <h3>Iterating over a string</h3>
   <p>We can use for.. of loop to iterate over the elements of a string</p>
   <p id="iterStr"></p>
   <script>
@@ -517,7 +517,18 @@
       text += h + "<br>";
     }
     document.getElementById("iterStr").innerHTML = text;
+  </script>
 
+  <h3>Iterating over an array</h3>
+  <p>we can use for...of iterate over the elements of an array</p>
+  <p id="iterArr"></p>
+  <script>
+  const items = [1, 2, 3];
+    let text1 = ""
+    for(let p of items){
+      text1 += p + "<br>";
+    }
+    document.getElementById("iterArr").innerHTML = text1;
   </script>
   </body>
   </html>
