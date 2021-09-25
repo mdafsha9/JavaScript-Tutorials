@@ -530,5 +530,20 @@
     }
     document.getElementById("iterArr").innerHTML = text1;
   </script>
+
+  <h3>Javascript iterators</h3>
+  <ul>
+    <li>The iterator protocol defines how to produce a sequences of values from an object</li>
+    <li>An object becomes an iterator when it implements a next() method</li>
+    <li>The next() method must returned an object with two properties<br>
+      <ul>
+        <li>value(the next value)</li>
+        <li>done(true/false)</li>
+        </li>
+    <li><b>value</b> the value return by the iterator(can be omitted if done is true)</li>
+    <li><b>done</b> (true if the iterator has completed)(fale if iterator has produced a value)</li>
+      </ul>
+    </li>
+  </ul>
   </body>
   </html>
