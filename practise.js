@@ -246,3 +246,13 @@ const villager4 = {
 }
 villager4.nationality = "English";
 document.getElementById("addp").innerHTML = villager4.firstName + " " + villager4.lastName + " is " + villager4.nationality;
+
+//delete property
+const villager5 = {
+  firstName : "Rao",
+  lastName : "Meer",
+  age : 50,
+  eyeColor : "Blue"
+}
+delete villager5.eyeColor;
+document.getElementById("delp").innerHTML = villager5.firstName + " " + villager5.lastName + " eye color is " + villager5.eyeColor;
