@@ -205,3 +205,8 @@ document.getElementById("unde").innerHTML = myFunc();
 function myFunc(){
   return this;
 }
+
+//objects (28/09/2021)
+//variables can contain single values
+let myName = "Afsha";
+document.getElementById("si").innerHTML = myName;
