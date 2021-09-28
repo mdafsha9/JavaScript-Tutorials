@@ -210,3 +210,12 @@ function myFunc(){
 //variables can contain single values
 let myName = "Afsha";
 document.getElementById("si").innerHTML = myName;
+
+//variables can contain many values
+const villager = {
+  firstName : "Rao",
+  lastName : "Meer",
+  age : 50,
+  eyeColor : "Blue"
+}
+document.getElementById("ma").innerHTML = villager.firstName + " " + villager.lastName;
