@@ -264,3 +264,10 @@ for(const s of info ){
   cont += s + "<br> ";
 }
 document.getElementById("iters").innerHTML = cont;
+
+const numbers = [1,3,5,6,7];
+let num = " "
+for(const n of numbers ){
+  num += n + "<br> ";
+}
+document.getElementById("iters").innerHTML = num;
