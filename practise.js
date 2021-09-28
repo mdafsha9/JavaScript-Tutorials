@@ -219,3 +219,11 @@ const villager = {
   eyeColor : "Blue"
 }
 document.getElementById("ma").innerHTML = villager.firstName + " " + villager.lastName;
+
+//create an empty javascript object and then add properties
+const villager2 = {};
+villager2.firstName = "RamaRao";
+villager2.lastName = "Deera";
+villager2.age = 55;
+villager2.eyeColor = "Black";
+document.getElementById("em").innerHTML = villager2.firstName + " " + villager2.lastName + " is a " + villager2.age ;
