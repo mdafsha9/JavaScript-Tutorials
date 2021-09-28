@@ -226,4 +226,13 @@ villager2.firstName = "RamaRao";
 villager2.lastName = "Deera";
 villager2.age = 55;
 villager2.eyeColor = "Black";
-document.getElementById("em").innerHTML = villager2.firstName + " " + villager2.lastName + " is a " + villager2.age ;
+document.getElementById("em").innerHTML = villager2.firstName + " " + villager2.lastName + " is " + villager2.age ;
+
+//create a new javavscript object and then add properties
+const villager3 = new Object();
+villager3.firstName = "VenkatRao";
+villager3.lastName = "Meera";
+villager3.age = 60;
+villager3.eyeColor = "Brown";
+
+document.getElementById("neem").innerHTML = villager3.firstName + " " + villager3.lastName + " eye color is " + villager3.eyeColor ;
