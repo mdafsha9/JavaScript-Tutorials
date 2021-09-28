@@ -256,3 +256,11 @@ const villager5 = {
 }
 delete villager5.eyeColor;
 document.getElementById("delp").innerHTML = villager5.firstName + " " + villager5.lastName + " eye color is " + villager5.eyeColor;
+
+//javascript iteroble
+const info = "Women";
+let cont = " "
+for(const s of info ){
+  cont += s + "<br> ";
+}
+document.getElementById("iters").innerHTML = cont;
