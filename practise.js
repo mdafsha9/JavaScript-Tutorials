@@ -236,3 +236,13 @@ villager3.age = 60;
 villager3.eyeColor = "Brown";
 
 document.getElementById("neem").innerHTML = villager3.firstName + " " + villager3.lastName + " eye color is " + villager3.eyeColor ;
+
+//add a property to objects
+const villager4 = {
+  firstName : "Rao",
+  lastName : "Meer",
+  age : 50,
+  eyeColor : "Blue"
+}
+villager4.nationality = "English";
+document.getElementById("addp").innerHTML = villager4.firstName + " " + villager4.lastName + " is " + villager4.nationality;
