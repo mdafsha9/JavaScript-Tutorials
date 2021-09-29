@@ -275,3 +275,8 @@ document.getElementById("iters").innerHTML = num;
 //this keyword (29/09/2021)
 var q = this;
 document.getElementById("thissi").innerHTML = q;
+
+//strict mode
+"use strict";
+let k = this;
+document.getElementById("thissist").innerHTML = k;
