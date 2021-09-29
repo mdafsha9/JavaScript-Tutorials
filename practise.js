@@ -271,3 +271,7 @@ for(const n of numbers ){
   num += n + "<br> ";
 }
 document.getElementById("iters").innerHTML = num;
+
+//this keyword (29/09/2021)
+var q = this;
+document.getElementById("thissi").innerHTML = q;
