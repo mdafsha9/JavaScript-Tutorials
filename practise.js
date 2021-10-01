@@ -286,3 +286,16 @@ function uncFunction(){
   return this;
 }
 document.getElementById("thisfun").innerHTML = uncFunction();
+
+//Object display (01/10/2021)
+const neigh = {
+  firstName:"Mouna",
+  lastName:"Haritha",
+  age:25,
+  eyeColor:"Blue"
+}
+let txtn = "";
+for (let g in neigh){
+  txtn += neigh[g]+ "<br>";
+}
+document.getElementById("name").innerHTML = txtn;
