@@ -280,3 +280,9 @@ document.getElementById("thissi").innerHTML = q;
 "use strict";
 let k = this;
 document.getElementById("thissist").innerHTML = k;
+
+//this keyword with function
+function uncFunction(){
+  return this;
+}
+document.getElementById("thisfun").innerHTML = uncFunction();
