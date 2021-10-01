@@ -299,3 +299,11 @@ for (let g in neigh){
   txtn += neigh[g]+ "<br>";
 }
 document.getElementById("name").innerHTML = txtn;
+
+const neigh1 = {
+  firstName:"Priya",
+  lastName:"Haritha",
+  age:23,
+  eyeColor:"Black"
+}
+document.getElementById("va").innerHTML = Object.values(neigh1);
