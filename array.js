@@ -16,3 +16,8 @@ document.getElementById("key").innerHTML = cars;
 //accessing array elements
 const vegies = ["Brinjal", "Tomato", "Potato"];
 document.getElementById("ele").innerHTML = vegies[1];
+
+//Changing an array element
+const fruits = ["grapes", "pine-apple", "custard-apple"];
+fruits[0] = "Apple";
+document.getElementById("change").innerHTML = fruits;
