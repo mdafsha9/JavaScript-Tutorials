@@ -35,3 +35,7 @@ document.getElementById("last").innerHTML = program1[program1.length-1];
 const vehicle = ["car", 'bus', "bi-cycle"];
 vehicle.push("Bolero");
 document.getElementById("met").innerHTML = vehicle;
+//proeprty.length
+const vehicle1 = ["car", 'bus', "bi-cycle"];
+vehicle1[vehicle1.length]="Bollero";
+document.getElementById("len").innerHTML = vehicle1;
