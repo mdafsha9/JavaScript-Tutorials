@@ -12,3 +12,7 @@ document.getElementById("addEle").innerHTML = myArrEle;
 //Using javascript keyword new
 const cars = new Array("Safari", "Honda", "Chervolt");
 document.getElementById("key").innerHTML = cars;
+
+//accessing array elements
+const vegies = ["Brinjal", "Tomato", "Potato"];
+document.getElementById("ele").innerHTML = vegies[1];
