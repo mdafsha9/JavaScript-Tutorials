@@ -30,3 +30,8 @@ document.getElementById("first").innerHTML = program[0];
 //accessing last element of an array
 const program1 = ["html", "css", "Javascript"];
 document.getElementById("last").innerHTML = program1[program1.length-1];
+
+//push methods
+const vehicle = ["car", 'bus', "bi-cycle"];
+vehicle.push("Bolero");
+document.getElementById("met").innerHTML = vehicle;
