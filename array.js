@@ -26,3 +26,7 @@ document.getElementById("change").innerHTML = fruits;
 //accessing first element of an array
 const program = ["html", "css", "Javascript"];
 document.getElementById("first").innerHTML = program[0];
+
+//accessing last element of an array
+const program1 = ["html", "css", "Javascript"];
+document.getElementById("last").innerHTML = program1[program1.length-1];
