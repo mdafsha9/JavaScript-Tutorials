@@ -21,3 +21,8 @@ document.getElementById("ele").innerHTML = vegies[1];
 const fruits = ["grapes", "pine-apple", "custard-apple"];
 fruits[0] = "Apple";
 document.getElementById("change").innerHTML = fruits;
+
+//Arrays are objects
+//accessing first element of an array
+const program = ["html", "css", "Javascript"];
+document.getElementById("first").innerHTML = program[0];
