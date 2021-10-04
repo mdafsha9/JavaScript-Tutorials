@@ -46,4 +46,10 @@ document.getElementById("as").innerHTML = fruitsA.toString();
 
 //join all array elements to toString
 const fruitsB = ["Mango", "Banana", "Pine-apple"];
-document.getElementById("jts").innerHTML = fruitsB.join("*"); 
+document.getElementById("jts").innerHTML = fruitsB.join("*");
+
+//pop() to remove last element of an arrays
+const vegiesA = ["Brinjal", "Tomato", "Potato", "Carrot"];
+document.getElementById("re").innerHTML = vegiesA;
+vegiesA.pop();
+document.getElementById("rem").innerHTML = vegiesA;
