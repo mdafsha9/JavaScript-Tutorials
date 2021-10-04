@@ -60,7 +60,13 @@ vegiesB.push("Beans");
 document.getElementById("ad2").innerHTML = vegiesB;
 
 //shift() method
-const meat = ["Pork", "Chicken", "lamp", "Beaf"];
+const meat = ["Pork", "Chicken", "lamb", "Beaf"];
 document.getElementById("rem1").innerHTML = meat;
 meat.shift();
-document.getElementById("rem2").innerHTML = meat; 
+document.getElementById("rem2").innerHTML = meat;
+
+//unshift() methods
+const meat1 = ["pork", "Beaf", "Chicken", "lamb"];
+document.getElementById("add1").innerHTML = meat1;
+meat1.unshift("Sheep");
+document.getElementById("add2").innerHTML = meat1;
