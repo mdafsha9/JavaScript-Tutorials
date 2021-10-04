@@ -76,3 +76,9 @@ const vehi1 = ["Bus", "Car", "Truck"];
 document.getElementById("c1").innerHTML = vehi1;
 vehi1[2]="Bi-cycle";
 document.getElementById("c2").innerHTML = vehi1;
+
+//appending the elements with javascript length property
+const vehi3 = ["Bus", "Car", "Truck"];
+document.getElementById("ch1").innerHTML = vehi3;
+vehi3[vehi3.length]="Bi-cycle";
+document.getElementById("ch2").innerHTML = vehi3;
