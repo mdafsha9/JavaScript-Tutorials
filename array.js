@@ -58,3 +58,9 @@ const vegiesB = ["Ladies-finger", "Bitter-guard", "Bottle-gaurd"];
 document.getElementById("ad1").innerHTML = vegiesB;
 vegiesB.push("Beans");
 document.getElementById("ad2").innerHTML = vegiesB;
+
+//shift() method
+const meat = ["Pork", "Chicken", "lamp", "Beaf"];
+document.getElementById("rem1").innerHTML = meat;
+meat.shift();
+document.getElementById("rem2").innerHTML = meat; 
