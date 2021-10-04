@@ -46,4 +46,4 @@ document.getElementById("as").innerHTML = fruitsA.toString();
 
 //join all array elements to toString
 const fruitsB = ["Mango", "Banana", "Pine-apple"];
-document.getElementById("jts").innerHTML = fruitsB.join(); 
+document.getElementById("jts").innerHTML = fruitsB.join("*"); 
