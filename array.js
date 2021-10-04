@@ -70,3 +70,9 @@ const meat1 = ["pork", "Beaf", "Chicken", "lamb"];
 document.getElementById("add1").innerHTML = meat1;
 meat1.unshift("Sheep");
 document.getElementById("add2").innerHTML = meat1;
+
+//changing the elements
+const vehi1 = ["Bus", "Car", "Truck"];
+document.getElementById("c1").innerHTML = vehi1;
+vehi1[2]="Bi-cycle";
+document.getElementById("c2").innerHTML = vehi1;
