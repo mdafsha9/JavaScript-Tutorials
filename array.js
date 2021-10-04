@@ -82,3 +82,9 @@ const vehi3 = ["Bus", "Car", "Truck"];
 document.getElementById("ch1").innerHTML = vehi3;
 vehi3[vehi3.length]="Bi-cycle";
 document.getElementById("ch2").innerHTML = vehi3;
+
+//delete an elements
+const alpha1 = ["a", "b", "c", "d"];
+document.getElementById("d1").innerHTML = alpha1;
+delete alpha1[1];
+document.getElementById("d2").innerHTML = alpha1;
