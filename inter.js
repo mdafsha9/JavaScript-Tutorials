@@ -11,3 +11,6 @@ res = res + Number.isNaN(undefined) + "<br>";
 
   document.getElementById("nan").innerHTML = res;
 }
+
+var a = "Hello";
+document.write(isNaN(a));
