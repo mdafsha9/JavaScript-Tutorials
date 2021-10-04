@@ -53,3 +53,8 @@ const vegiesA = ["Brinjal", "Tomato", "Potato", "Carrot"];
 document.getElementById("re").innerHTML = vegiesA;
 vegiesA.pop();
 document.getElementById("rem").innerHTML = vegiesA;
+//push() to add an element of an array at the end
+const vegiesB = ["Ladies-finger", "Bitter-guard", "Bottle-gaurd"];
+document.getElementById("ad1").innerHTML = vegiesB;
+vegiesB.push("Beans");
+document.getElementById("ad2").innerHTML = vegiesB;
