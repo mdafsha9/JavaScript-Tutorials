@@ -43,3 +43,7 @@ document.getElementById("len").innerHTML = vehicle1;
 //converting an array to toString
 const fruitsA = ["Grapes", "Pappaya", "Dragon-fruit", "Kiwi"];
 document.getElementById("as").innerHTML = fruitsA.toString();
+
+//join all array elements to toString
+const fruitsB = ["Mango", "Banana", "Pine-apple"];
+document.getElementById("jts").innerHTML = fruitsB.join(); 
