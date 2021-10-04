@@ -39,3 +39,7 @@ document.getElementById("met").innerHTML = vehicle;
 const vehicle1 = ["car", 'bus', "bi-cycle"];
 vehicle1[vehicle1.length]="Bollero";
 document.getElementById("len").innerHTML = vehicle1;
+
+//converting an array to toString
+const fruitsA = ["Grapes", "Pappaya", "Dragon-fruit", "Kiwi"];
+document.getElementById("as").innerHTML = fruitsA.toString();
