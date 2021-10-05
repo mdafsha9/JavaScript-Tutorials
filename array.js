@@ -88,3 +88,9 @@ const alpha1 = ["a", "b", "c", "d"];
 document.getElementById("d1").innerHTML = alpha1;
 delete alpha1[1];
 document.getElementById("d2").innerHTML = alpha1;
+
+//splicing an arrays
+const fruits01 = ["Mango", "Apple", "Grapes"];
+document.getElementById("spl1").innerHTML = fruits01;
+fruits01.splice(1,0, "Lemon" );
+document.getElementById("spl2").innerHTML = fruits01;
