@@ -94,3 +94,8 @@ const fruits01 = ["Mango", "Apple", "Grapes"];
 document.getElementById("spl1").innerHTML = fruits01;
 fruits01.splice(1,0, "Lemon" );
 document.getElementById("spl2").innerHTML = fruits01;
+//using splice() to remove eleements
+const vegies01 = ["Tomato", "Potato", "Brinjal", "Beans", "Cauli-flower"];
+document.getElementById("spl3").innerHTML = vegies01;
+vegies01.splice(2,2, "Cabbage", "Chillies");
+document.getElementById("spl4").innerHTML = vegies01;
