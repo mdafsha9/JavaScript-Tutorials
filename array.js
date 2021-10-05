@@ -112,3 +112,8 @@ const arr2 = ["Louis", "Brown", "Gray"];
 const arr3 = ["Curry", "Beiden", "Roy"];
 const children1 = arr1.concat(arr2, arr3);
 document.getElementById("mer2").innerHTML = children1;
+
+//concat() can also take string as arrguments
+const animals = ["Lion", "Tiger", "Cheatha"];
+const allAnimals = animals.concat("Bengal Tiger");
+document.getElementById("mer3").innerHTML = allAnimals;
