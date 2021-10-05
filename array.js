@@ -105,3 +105,10 @@ const girls = ["Marry", "Priya", "Cathy"];
 const boys = ["Louis", "Brown", "Gray"];
 const children = girls.concat(boys);
 document.getElementById("mer1").innerHTML = children;
+
+//concat() can take any no. of arrguments
+const arr1 = ["Marry", "Priya", "Cathy"];
+const arr2 = ["Louis", "Brown", "Gray"];
+const arr3 = ["Curry", "Beiden", "Roy"];
+const children1 = arr1.concat(arr2, arr3);
+document.getElementById("mer2").innerHTML = children1;
