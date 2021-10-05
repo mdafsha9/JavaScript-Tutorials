@@ -27,3 +27,6 @@ var y = 6;
 var z = 6;
 document.write((x==y) + "<br>");
 document.write((y==z) + "<br>");
+
+var car;
+document.write(car + "<br>" + typeof car + "<br>");
