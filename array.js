@@ -122,3 +122,7 @@ document.getElementById("mer3").innerHTML = allAnimals;
 const domestic=["Peocock", "Rabbit", "Dear", "Parrot"];
 const pets = domestic.slice(2);
 document.getElementById("sli").innerHTML = pets;
+const pets1 = domestic.slice(0,2);
+document.getElementById("sli1").innerHTML = pets1;
+
+//slicing with two arguments
