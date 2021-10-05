@@ -19,5 +19,11 @@ document.write(isNaN(a) + "<br>");
 document.write("John Doe" + "<br>");
 document.write(25.5 + "<br>");
 
-var x = 123522465424654265256554425;
-document.write(x + "<br>");
+var a = 123522465424654265256554425;
+document.write(a + "<br>");
+
+var x = 5;
+var y = 6;
+var z = 6;
+document.write((x==y) + "<br>");
+document.write((y==z) + "<br>");
