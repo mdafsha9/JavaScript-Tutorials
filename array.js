@@ -99,3 +99,9 @@ const vegies01 = ["Tomato", "Potato", "Brinjal", "Beans", "Cauli-flower"];
 document.getElementById("spl3").innerHTML = vegies01;
 vegies01.splice(2,2, "Cabbage", "Chillies");
 document.getElementById("spl4").innerHTML = vegies01;
+
+//merging an arrays
+const girls = ["Marry", "Priya", "Cathy"];
+const boys = ["Louis", "Brown", "Gray"];
+const children = girls.concat(boys);
+document.getElementById("mer1").innerHTML = children;
