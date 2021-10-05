@@ -117,3 +117,8 @@ document.getElementById("mer2").innerHTML = children1;
 const animals = ["Lion", "Tiger", "Cheatha"];
 const allAnimals = animals.concat("Bengal Tiger");
 document.getElementById("mer3").innerHTML = allAnimals;
+
+//slicing an array
+const domestic=["Peocock", "Rabbit", "Dear", "Parrot"];
+const pets = domestic.slice(2);
+document.getElementById("sli").innerHTML = pets;
