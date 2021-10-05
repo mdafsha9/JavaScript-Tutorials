@@ -13,4 +13,11 @@ res = res + Number.isNaN(undefined) + "<br>";
 }
 
 var a = "Hello";
-document.write(isNaN(a));
+document.write(isNaN(a) + "<br>");
+
+//primitive datatypes
+document.write("John Doe" + "<br>");
+document.write(25.5 + "<br>");
+
+var x = 123522465424654265256554425;
+document.write(x + "<br>");
