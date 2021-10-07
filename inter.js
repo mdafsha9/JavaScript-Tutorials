@@ -35,5 +35,11 @@ document.write(car + "<br>" + typeof car + "<br>");
 var b = null;
 document.write(b + "<br>");
 
-var symbol1 = Symbol('symbol');
-document.write(symbol1 + "<br>");
+//var symbol1 = Symbol('symbol');
+//document.write(symbol1 + "<br>");
+
+//comparison operators == Vs ===
+var i = 2;
+var j="2";
+document.write((i==j) + "<br>");
+document.write((i===j) + "<br>");
