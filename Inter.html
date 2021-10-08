@@ -59,7 +59,13 @@
       <li>changes the arguments value are not visible (reflected) outside the function</li>
     </ul>
     <h4>Example</h4>
-    
+    <code>
+      let x = 10;
+      let y =z;
+      let x = 20;
+      console.log(x);
+      console.log(y);
+    </code>
     <h3>Objects are passed by reference</h3>
     <ul>
       <li>In Javascript, object reference are values</li>
@@ -67,7 +73,14 @@
       <li>If a function changes an object proeprty, it changes its original value</li>
       <li>changes an object proeprty are visible (reflected) outside the function</li>
     </ul>
-
+    <h4>Example</h4>
+    <code>
+      let x = {value:10}
+      let y =z;
+      let x.value = 20;
+      console.log(x);
+      console.log(y);
+    </code>
     <script src="inter.js"></script>
   </body>
   </html>
