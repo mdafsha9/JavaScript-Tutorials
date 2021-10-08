@@ -43,3 +43,15 @@ var i = 2;
 var j="2";
 document.write((i==j) + "<br>");
 document.write((i===j) + "<br>");
+
+//arrguments are passed by value
+var e = 10;
+var f = e;
+var e = 20;
+console.log(e);
+console.log(f);
+
+//objects are passed by reference
+let c = {value:10};
+let d = c;
+c.value = 20;
