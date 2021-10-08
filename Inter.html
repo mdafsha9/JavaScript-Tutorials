@@ -49,7 +49,25 @@
 
     <h2>Difference between == and === operators</h2>
     <p>Both are comparison operators. The difference between both operators is that == is used to compare the values and === compare the both value ans typeof. </p>
-  
+
+    <h2>Passed by value and passed by reference</h2>
+    <h3>Arguments are passed by value</h3>
+    <ul>
+      <li>The parameters, in a function call, are the function arguments</li>
+      <li>Arguments are passed by value, the function only gets to know the values, not the arguments location</li>
+      <li>If a function changes the arguments value, it does not change the parameters original value</li>
+      <li>changes the arguments value are not visible (reflected) outside the function</li>
+    </ul>
+    <h4>Example</h4>
+    
+    <h3>Objects are passed by reference</h3>
+    <ul>
+      <li>In Javascript, object reference are values</li>
+      <li>Because of this, objects behave like they are passed by refernce</li>
+      <li>If a function changes an object proeprty, it changes its original value</li>
+      <li>changes an object proeprty are visible (reflected) outside the function</li>
+    </ul>
+
     <script src="inter.js"></script>
   </body>
   </html>
