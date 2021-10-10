@@ -30,3 +30,9 @@ function expFunction(i,j){
   return i*j;
 }
 document.getElementById("f6").innerHTML = expFunction(8,2)*3;
+
+//arguments.length property
+function propFunction(k,l){
+  return arguments.length;
+}
+document.getElementById("f7").innerHTML = propFunction(1,2);
