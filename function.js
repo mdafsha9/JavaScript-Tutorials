@@ -18,3 +18,10 @@ document.getElementById("f3").innerHTML = myFunction1(8,2);
 (function(){
   document.getElementById("f4").innerHTML = "Hello Javascript world!";
 })();
+
+//javascript functions can be used as values
+
+function valFunction(g,h){
+  return g-h;
+}
+document.getElementById("f5").innerHTML = valFunction(8,2);
