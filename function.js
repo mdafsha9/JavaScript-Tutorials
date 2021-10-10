@@ -25,3 +25,8 @@ function valFunction(g,h){
   return g-h;
 }
 document.getElementById("f5").innerHTML = valFunction(8,2);
+
+function expFunction(i,j){
+  return i*j;
+}
+document.getElementById("f6").innerHTML = expFunction(8,2)*3;
