@@ -36,3 +36,10 @@ function propFunction(k,l){
   return arguments.length;
 }
 document.getElementById("f7").innerHTML = propFunction(1,2);
+
+//toString methods
+
+function strFunction(k,l){
+  return k*l;
+}
+document.getElementById("f7").innerHTML = strFunction.toString();
