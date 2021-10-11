@@ -47,3 +47,7 @@ document.getElementById("f7").innerHTML = strFunction.toString();
 //Arrow function without function keyword, return keyword and curly brackets
 const o = (m,n)=>m*n;
 document.getElementById("f9").innerHTML = o(5,4);
+
+//arrow func with return keyword and curly brackets
+const t = (p,q)=>{return p*q};
+document.getElementById("f10").innerHTML = t(2,2);
