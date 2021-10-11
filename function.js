@@ -43,3 +43,7 @@ function strFunction(k,l){
   return k*l;
 }
 document.getElementById("f7").innerHTML = strFunction.toString();
+
+//Arrow function without function keyword, return keyword and curly brackets
+const o = (m,n)=>m*n;
+document.getElementById("f9").innerHTML = o(5,4);
