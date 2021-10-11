@@ -51,3 +51,10 @@ document.getElementById("f9").innerHTML = o(5,4);
 //arrow func with return keyword and curly brackets
 const t = (p,q)=>{return p*q};
 document.getElementById("f10").innerHTML = t(2,2);
+
+//Default parameters
+function defFunction(r,s){
+  s=2;
+  return r*s;
+}
+document.getElementById("f11").innerHTML = defFunction(4);
