@@ -92,6 +92,19 @@
     The inner can access not only outer function variables, but can also access outer function parameters.A closure is created
     by adding a function inside another function, that the inner function cannot access outer function argumentsObject, however it can access
     outer function parameters directly.</p>
+    <h3>Example:</h3>
+
     <script src="function.js"></script>
+    <script>
+    function u(z){
+      let w = 10;
+      function v(){
+        let sum = z + w;
+      document.write(sum);
+      }
+      v();
+    }
+    u(9);
+    </script>
   </body>
 </html>
