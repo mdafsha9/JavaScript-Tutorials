@@ -64,3 +64,15 @@ class Bus{
 }
 const myBus = new Bus("Mahindra");
 document.getElementById("c5").innerHTML = myBus.bname;
+
+//Javascript class static method
+class Lorry{
+  constructor(lname){
+    this.lorryname = lname;
+  }
+  static hello(){
+    return "hello!";
+  }
+}
+const myLorry = new Lorry("Tata Motors");
+document.getElementById("c6").innerHTML = Lorry.hello();
