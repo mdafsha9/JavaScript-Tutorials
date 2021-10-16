@@ -48,3 +48,19 @@ class Model extends Car1{
 }
 const myCar1 = new Model("Ford", "Mustang");
 document.getElementById("c4").innerHTML = myCar1.show();
+
+
+//using getters & Setters
+class Bus{
+  constructor(brand){
+    this.busname = brand;
+  }
+  get bname(){
+    return this.busname;
+  }
+  set bname(x){
+    this.busname = x;
+  }
+}
+const myBus = new Bus("Mahindra");
+document.getElementById("c5").innerHTML = myBus.bname;
