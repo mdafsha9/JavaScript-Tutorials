@@ -76,3 +76,16 @@ class Lorry{
 }
 const myLorry = new Lorry("Tata Motors");
 document.getElementById("c6").innerHTML = Lorry.hello();
+
+//if we want to use myLorry object inside the static method, we can send it as a parameter
+
+class Truck{
+  constructor(name){
+    this.name = name;
+  }
+  static hello(x){
+    return "Hello" + x.name;
+  }
+}
+const myTruck = new Truck("Tata Motors");
+document.getElementById("c7").innerHTML = Truck.hello(myTruck);
