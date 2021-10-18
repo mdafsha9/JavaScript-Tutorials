@@ -336,3 +336,7 @@ function exFunc3(a05, b05){
   return arguments.length;
 }
 document.getElementById("f06").innerHTML = exFunc3(5,6);
+
+//Arrow functions
+const t = (a06, b06)=>a06*b06;
+document.getElementById("f07").innerHTML = t(9,2);
