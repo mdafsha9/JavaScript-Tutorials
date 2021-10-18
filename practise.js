@@ -322,3 +322,7 @@ function exFunc1(a03, b03){
   return a03-b03;
 }
 document.getElementById("f03").innerHTML = exFunc1;
+
+//function can also defined with bult-in function constructor called function()
+const exFunc2 = new Function("a04, b04", "return a04*b04");
+document.getElementById("f04").innerHTML = exFunc2(1,3);
