@@ -312,3 +312,8 @@ function exFunction(a01,b01){
   return a01*b01;
 }
 document.getElementById("f01").innerHTML = exFunction(4,3);
+//function return
+document.getElementById("f02").innerHTML = exFunc(5,2);
+function exFunc(a02, b02){
+  return a02+b02;
+}
