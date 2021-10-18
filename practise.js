@@ -331,3 +331,8 @@ document.getElementById("f04").innerHTML = exFunc2(1,3);
 (function(){
   document.getElementById("f05").innerHTML = "Hello!";
 })();
+//functions are Objects
+function exFunc3(a05, b05){
+  return arguments.length;
+}
+document.getElementById("f06").innerHTML = exFunc3(5,6);
