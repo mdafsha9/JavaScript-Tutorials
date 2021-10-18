@@ -307,3 +307,8 @@ const neigh1 = {
   eyeColor:"Black"
 }
 document.getElementById("va").innerHTML = Object.values(neigh1);
+//functions
+function exFunction(a01,b01){
+  return a01*b01;
+}
+document.getElementById("f01").innerHTML = exFunction(4,3);
