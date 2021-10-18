@@ -317,3 +317,8 @@ document.getElementById("f02").innerHTML = exFunc(5,2);
 function exFunc(a02, b02){
   return a02+b02;
 }
+//accessing the function without () it will return the function object instead of function result
+function exFunc1(a03, b03){
+  return a03-b03;
+}
+document.getElementById("f03").innerHTML = exFunc1;
