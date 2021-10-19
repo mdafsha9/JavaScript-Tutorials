@@ -74,3 +74,19 @@ const person2 = {
   lastName:"Leo"
 }
 document.getElementById("f12").innerHTML = person.fullName.call(person2);
+
+//difference of call() & apply()
+const personA = {
+  fullName : function(city, country){
+    return this.firstName + " " + this.lastName + " lives in " + city + " " + country;
+  }
+}
+const person3 = {
+  firstName : 'Lorie',
+  lastName : "write"
+}
+const person4 = {
+  firstName : 'Matt',
+  lastName : "Wrich"
+}
+document.getElementById("f13").innerHTML = personA.fullName.call(person2, "Newyork", "USA");
