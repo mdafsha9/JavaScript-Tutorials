@@ -76,6 +76,7 @@ const person2 = {
 document.getElementById("f12").innerHTML = person.fullName.call(person2);
 
 //difference of call() & apply()
+//call() method
 const personA = {
   fullName : function(city, country){
     return this.firstName + " " + this.lastName + " lives in " + city + " " + country;
@@ -90,3 +91,19 @@ const person4 = {
   lastName : "Wrich"
 }
 document.getElementById("f13").innerHTML = personA.fullName.call(person2, "Newyork", "USA");
+
+//apply() method
+const personB = {
+  fullName : function(city, country){
+    return this.firstName + " " + this.lastName + " lives in " + city + " " + country;
+  }
+}
+const person5 = {
+  firstName : 'Lorie',
+  lastName : "write"
+}
+const person6 = {
+  firstName : 'Matt',
+  lastName : "Wrich"
+}
+document.getElementById("f14").innerHTML = personA.fullName.apply(person5, ["Newyork", "USA"]);
