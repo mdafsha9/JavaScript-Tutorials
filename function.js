@@ -58,3 +58,19 @@ function defFunction(r,s){
   return r*s;
 }
 document.getElementById("f11").innerHTML = defFunction(4);
+
+//function call()
+const person = {
+  fullName : function(){
+    return this.firstName + " " + this.lastName;
+  }
+}
+const person1 = {
+  firstName : "John",
+  lastName:"Doe"
+}
+const person2 = {
+  firstName:"Louis",
+  lastName:"Leo"
+}
+document.getElementById("f12").innerHTML = person.fullName.call(person2);
