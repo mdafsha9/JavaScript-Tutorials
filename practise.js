@@ -340,3 +340,9 @@ document.getElementById("f06").innerHTML = exFunc3(5,6);
 //Arrow functions
 const t = (a06, b06)=>a06*b06;
 document.getElementById("f07").innerHTML = t(9,2);
+
+//missing arguments, then the missing value is set to undefined
+function exFunc4(a07, b07 = 5){
+  return a07+b07;
+}
+document.getElementById("f08").innerHTML = exFunc4(9);
