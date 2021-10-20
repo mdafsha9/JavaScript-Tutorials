@@ -112,6 +112,18 @@ document.getElementById("f14").innerHTML = personA.fullName.apply(person5, ["New
 var firstName = "Hack";
 function lexFunc(){
   document.write(firstName);
-
+  function inFunc(){
+    document.write(firstName);
+  }
+  inFunc();
 }
 lexFunc();
+
+//lexical scope variable defined inside the function cannot accessible outside the functions
+function lexFunc1(){
+  document.write(lastName);
+    function insFunc(){
+      let lastName = "Mack";
+    }
+}
+lexFunc1();
