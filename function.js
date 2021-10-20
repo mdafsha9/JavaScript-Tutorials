@@ -107,3 +107,11 @@ const person6 = {
   lastName : "Wrich"
 }
 document.getElementById("f14").innerHTML = personA.fullName.apply(person5, ["Newyork", "USA"]);
+
+//lexical scope, variable defined outside the can be accesible to outside the function defined afetr the variable declarations
+var firstName = "Hack";
+function lexFunc(){
+  document.write(firstName);
+
+}
+lexFunc();
