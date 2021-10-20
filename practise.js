@@ -346,3 +346,14 @@ function exFunc4(a07, b07 = 5){
   return a07+b07;
 }
 document.getElementById("f08").innerHTML = exFunc4(9);
+
+//closures
+function outFunc(z1){
+  let z2 = 5;
+  function innFunc(){
+    let total = z1+z2;
+    document.getElementById("demo").innerHTML = total;
+  }
+  innFunc();
+}
+outFunc(5);
