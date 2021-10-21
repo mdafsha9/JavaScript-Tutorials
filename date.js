@@ -9,3 +9,7 @@ document.getElementById("d1").innerHTML = d;
 //Date methods--toString();
 const d2 = new Date();
 document.getElementById("d3").innerHTML = d2.toString();
+
+//Date method -- toUTCString();
+const d3 = new Date();
+document.getElementById("d4").innerHTML =d3.toUTCString(); 
