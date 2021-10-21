@@ -12,4 +12,8 @@ document.getElementById("d3").innerHTML = d2.toString();
 
 //Date method -- toUTCString();
 const d3 = new Date();
-document.getElementById("d4").innerHTML =d3.toUTCString(); 
+document.getElementById("d4").innerHTML =d3.toUTCString();
+
+//Date method -- toDateString();
+const d4 = new Date();
+document.getElementById("d5").innerHTML =d4.toDateString();
