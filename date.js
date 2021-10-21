@@ -17,3 +17,7 @@ document.getElementById("d4").innerHTML =d3.toUTCString();
 //Date method -- toDateString();
 const d4 = new Date();
 document.getElementById("d5").innerHTML =d4.toDateString();
+
+//Date method -- toISOString();
+const d5 = new Date();
+document.getElementById("d6").innerHTML =d5.toISOString();
