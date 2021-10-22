@@ -10,3 +10,7 @@ document.getElementById("s3").innerHTML = "Hey! this is a \n" + firstName + " " 
 
 //string length
 document.getElementById("s4").innerHTML = firstName.length;
+
+//javascript can be stored as objects with new String()
+let middleName = new String("Afsha");
+document.getElementById("s5").innerHTML = firstName;
