@@ -23,3 +23,7 @@ document.getElementById("s7").innerHTML = (firstName == middleName);
 
 //x === y
 document.getElementById("s8").innerHTML = (firstName === middleName);
+
+//slice methods
+const myText = "I am learning JavaScript";
+document.getElementById("sm").innerHTML = myText.slice(0,8);
