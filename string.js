@@ -13,4 +13,13 @@ document.getElementById("s4").innerHTML = firstName.length;
 
 //javascript can be stored as objects with new String()
 let middleName = new String("Afsha");
-document.getElementById("s5").innerHTML = firstName;
+document.getElementById("s5").innerHTML = middleName;
+
+//typeof operator
+document.getElementById("s6").innerHTML = typeof middleName + " <br>"  +typeof firstName;
+
+//x == y
+document.getElementById("s7").innerHTML = (firstName == middleName);
+
+//x === y
+document.getElementById("s8").innerHTML = (firstName === middleName);
