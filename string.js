@@ -29,3 +29,9 @@ const myText = "I am learning JavaScript";
 document.getElementById("sm").innerHTML = myText.slice(0,8);
 //substr() methods
 document.getElementById("sm1").innerHTML = myText.substr(5, 8);
+
+//replace method
+function reFunction(){
+  let text = document.getElementById("r").innerHTML;
+  document.getElementById("r").innerHTML = text.replace("Microsoft", "W3schools");
+}
