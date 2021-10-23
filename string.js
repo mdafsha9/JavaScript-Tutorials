@@ -39,3 +39,7 @@ function reFunction(){
 //convert a string into toUpperCase
 let text1 = "uppercase"
 document.getElementById("upp").innerHTML = text1.toUpperCase();
+
+//convert a string into lower case
+let text2 = "LOWERCASE"
+document.getElementById("low").innerHTML = text2.toLowerCase();
