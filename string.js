@@ -35,3 +35,7 @@ function reFunction(){
   let text = document.getElementById("r").innerHTML;
   document.getElementById("r").innerHTML = text.replace("Microsoft", "W3schools");
 }
+
+//convert a string into toUpperCase
+let text1 = "uppercase"
+document.getElementById("upp").innerHTML = text1.toUpperCase();
