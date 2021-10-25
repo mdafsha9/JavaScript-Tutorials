@@ -53,6 +53,8 @@ document.getElementById("cont").innerHTML = con1.concat(" ", con2);
 let trim = "          Hello JavaScript!      ";
 document.getElementById("tri").innerHTML = trim.trim();
 
-//padding
+//padding--padStrat
 let num = "5";
 document.getElementById("pad1").innerHTML = num.padStart(4,0);
+//padding---padEnd
+document.getElementById("pad1").innerHTML = num.padEnd(4,0);
