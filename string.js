@@ -52,3 +52,7 @@ document.getElementById("cont").innerHTML = con1.concat(" ", con2);
 //trim() method is used to remove whitespace on both sides of the string;
 let trim = "          Hello JavaScript!      ";
 document.getElementById("tri").innerHTML = trim.trim();
+
+//padding
+let num = "5";
+document.getElementById("pad1").innerHTML = num.padStart(4,0);
