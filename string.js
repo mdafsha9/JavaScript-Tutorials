@@ -43,3 +43,8 @@ document.getElementById("upp").innerHTML = text1.toUpperCase();
 //convert a string into lower case
 let text2 = "LOWERCASE"
 document.getElementById("low").innerHTML = text2.toLowerCase();
+
+//join two or more Strings
+let con1 = "Hello";
+let con2 = "World!";
+document.getElementById("cont").innerHTML = con1.concat(" ", con2);
