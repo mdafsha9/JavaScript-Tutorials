@@ -1,7 +1,18 @@
-let firstName = "Roman";
+//string methods
 
-console.log(firstName);
-console.log(firstName[3]);
+let firstName = "     RoMan   ";
 console.log(firstName.length);
-console.log(firstName[firstName.length-1]);
-console.log(firstName[firstName.length-3]);
+//trim() methods
+
+let newFirstName = firstName.trim();
+console.log(newFirstName.length);
+
+//toUpperCase() methods
+
+console.log(firstName.toUpperCase());
+console.log(firstName.toLowerCase());
+
+//slice() methods
+firstName = "Roman";
+let newString = firstName.slice(0,3);
+console.log(newString);
