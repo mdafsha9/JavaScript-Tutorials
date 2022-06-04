@@ -3,4 +3,4 @@
 //toUpperase() methods
 
 let firstName = "MoNoHaR";
-console.log(firstName.toUpperCase());
+console.log(firstName.toLowerCase());
