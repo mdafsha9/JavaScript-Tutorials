@@ -1,6 +1,7 @@
 //string methods
 
-//toUpperase() methods
+//slice() methods
 
 let firstName = "MoNoHaR";
-console.log(firstName.toLowerCase());
+let myNewNAme = firstName.slice(0,3);
+console.log(myNewNAme);
