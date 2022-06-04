@@ -1,9 +1,6 @@
 //string methods
 
-//trim() methods
+//toUpperase() methods
 
-let firstName = "     Roy          ";
-console.log(firstName);
-console.log(firstName.length);
-firstName = firstName.trim();
-console.log(firstName.length);
+let firstName = "MoNoHaR";
+console.log(firstName.toUpperCase());
