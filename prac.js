@@ -1,18 +1,8 @@
-//string methods
+//variables
+var firstName = "Tayson";
+var lastName = "Nelson";
 
-let firstName = "     RoMan   ";
-console.log(firstName.length);
-//trim() methods
+console.log(firstName + " " + lastName);
 
-let newFirstName = firstName.trim();
-console.log(newFirstName.length);
-
-//toUpperCase() methods
-
-console.log(firstName.toUpperCase());
-console.log(firstName.toLowerCase());
-
-//slice() methods
-firstName = "Roman";
-let newString = firstName.slice(0,3);
-console.log(newString);
+var firstName = "Lorie";
+console.log(firstName + " " + lastName);
