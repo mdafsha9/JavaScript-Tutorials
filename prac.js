@@ -1,7 +1,7 @@
-//string methods
+//primitive datatypes
+//1. string
 
-//slice() methods
+let firstName = "Cathy";
 
-let firstName = "MoNoHaR";
-let myNewNAme = firstName.slice(0,3);
-console.log(myNewNAme);
+console.log(firstName);
+console.log(typeof firstName);
