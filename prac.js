@@ -16,3 +16,13 @@ console.log(tree, typeof tree);
 
 console.log(num1+num2);
 console.log(Number.MAX_SAFE_INTEGER);
+
+//converting numb to string
+age = age + " "; or
+console.log(age, typeof age);
+
+
+
+//converting string to number
+firstName = +"22";
+console.log(firstName, typeof firstName);
