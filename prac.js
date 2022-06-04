@@ -1,7 +1,9 @@
-//string indexing
+//string methods
 
-let firstName = "RoyalRoy";
+//trim() methods
+
+let firstName = "     Roy          ";
 console.log(firstName);
-console.log(firstName[2]);
 console.log(firstName.length);
-console.log(firstName[firstName.length-1]);
+firstName = firstName.trim();
+console.log(firstName.length);
