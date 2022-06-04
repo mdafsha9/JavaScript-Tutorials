@@ -1,8 +1,5 @@
 //let keyword
-let firstName = "Tayson";
-let lastName = "Nelson";
+const pi = 2.13;
 
-console.log(firstName + " " + lastName);
-
- firstName = "Lorie";
-console.log(firstName + " " + lastName);
+console.log(pi);
+console.log(pi *2);
