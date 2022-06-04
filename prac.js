@@ -1,8 +1,8 @@
-//variables
-var firstName = "Tayson";
-var lastName = "Nelson";
+//let keyword
+let firstName = "Tayson";
+let lastName = "Nelson";
 
 console.log(firstName + " " + lastName);
 
-var firstName = "Lorie";
+ firstName = "Lorie";
 console.log(firstName + " " + lastName);
