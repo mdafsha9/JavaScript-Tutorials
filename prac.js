@@ -1,5 +1,7 @@
-//let keyword
-const pi = 2.13;
+//string indexing
 
-console.log(pi);
-console.log(pi *2);
+let firstName = "RoyalRoy";
+console.log(firstName);
+console.log(firstName[2]);
+console.log(firstName.length);
+console.log(firstName[firstName.length-1]);
