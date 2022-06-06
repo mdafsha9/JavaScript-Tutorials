@@ -1,10 +1,9 @@
-//boolean and camparison operator
+//if else statement
 
-let num1 = "7";
-let num2 = 7;
+let age = 19;
 
-console.log(num1>=num2);
-
-
-console.log(num1 == num2);
-console.log(num1 === num2);
+if(age > 18){
+  console.log("User can play outdoor games!");
+}else {
+  console.log("User can play indoor games!");
+}
