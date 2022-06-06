@@ -1,13 +1,7 @@
-//truthy and falsy values
+//Ternary operator
 
-//falsy vales are false, " ", "null", "undefined" and 0
+let age = 8;
 
-//the above 5 are falsy vales remaining are truthy values
+let drink = age>=5 ? "coffee" : "milk";
 
-let firstName = false;
-
-if(firstName){
-  console.log(firstName);
-}else{
-  console.log("Falsy value");
-}
+console.log(drink);
