@@ -1,7 +1,10 @@
-//Ternary operator
+//and or operator
 
-let age = 8;
+let firstName = "Lorie";
+let age = 25;
 
-let drink = age>=5 ? "coffee" : "milk";
-
-console.log(drink);
+if(firstName[0] === "L" && age >=18){
+  console.log("Name starts with L and above 18");
+}else{
+  console.log("Both condition must true!");
+}
