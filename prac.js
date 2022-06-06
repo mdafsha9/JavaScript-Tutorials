@@ -7,3 +7,13 @@ if(age > 18){
 }else {
   console.log("User can play indoor games!");
 }
+
+//even or odd
+
+let num = 7;
+
+if(num%2 === 0){
+  console.log("Even");
+}else{
+  console.log("Odd");
+}
