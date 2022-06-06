@@ -1,19 +1,13 @@
-//if else statement
+//truthy and falsy values
 
-let age = 19;
+//falsy vales are false, " ", "null", "undefined" and 0
 
-if(age > 18){
-  console.log("User can play outdoor games!");
-}else {
-  console.log("User can play indoor games!");
-}
+//the above 5 are falsy vales remaining are truthy values
 
-//even or odd
+let firstName = false;
 
-let num = 7;
-
-if(num%2 === 0){
-  console.log("Even");
+if(firstName){
+  console.log(firstName);
 }else{
-  console.log("Odd");
+  console.log("Falsy value");
 }
