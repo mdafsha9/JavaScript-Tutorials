@@ -1,10 +1,10 @@
 //and or operator
 
-let firstName = "Lorie";
-let age = 25;
+let firstName = "Rorie";
+let age = 15;
 
-if(firstName[0] === "L" && age >=18){
+if(firstName[0] === "L" || age >=18){
   console.log("Name starts with L and above 18");
 }else{
-  console.log("Both condition must true!");
+  console.log("either one condition must true!");
 }
