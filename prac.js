@@ -1,15 +1,30 @@
-//if else if
+//switch statement
 
-let grade = 74;
+let day = 3;
 
-if(grade < 35){
-  console.log("Fail");
-}else if(grade <55){
-  console.log("D grade");
-}else if(grade < 65){
-  console.log("C grade");
-}else if(grade < 75){
-  console.log("B grade");
-}else{
-  console.log("A grade!");
+switch(day){
+  case 0:
+    console.log("Sunday");
+    break;
+  case 1:
+    console.log("Monday");
+    break;
+  case 2:
+    console.log("Tuesday");
+    break;
+  case 3:
+    console.log("Wednesday");
+    break;
+  case 4:
+    console.log("Thursday");
+    break;
+  case 5:
+    console.log("Friday");
+    break;
+  case 6:
+    console.log("Saturday");
+    break;
+  default:
+    console.log("Invalid!");
+    break;
 }
