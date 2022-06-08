@@ -1,10 +1,14 @@
-//and or operator
+//nested ifelse
 
-let firstName = "Rorie";
-let age = 15;
+let winningNum = 19;
+let userGuess =+ prompt("Guess a number ");
 
-if(firstName[0] === "L" || age >=18){
-  console.log("Name starts with L and above 18");
-}else{
-  console.log("either one condition must true!");
+if(userGuess === winningNum){
+  console.log("Your guess is perfect!");
+}else {
+  if(userGuess > winningNum){
+    console.log("Too high!");
+  }else{
+    console.log("Too low!");
+  }
 }
