@@ -1,14 +1,15 @@
-//nested ifelse
+//if else if
 
-let winningNum = 19;
-let userGuess =+ prompt("Guess a number ");
+let grade = 74;
 
-if(userGuess === winningNum){
-  console.log("Your guess is perfect!");
-}else {
-  if(userGuess > winningNum){
-    console.log("Too high!");
-  }else{
-    console.log("Too low!");
-  }
+if(grade < 35){
+  console.log("Fail");
+}else if(grade <55){
+  console.log("D grade");
+}else if(grade < 65){
+  console.log("C grade");
+}else if(grade < 75){
+  console.log("B grade");
+}else{
+  console.log("A grade!");
 }
