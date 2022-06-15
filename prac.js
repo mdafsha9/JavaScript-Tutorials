@@ -11,3 +11,8 @@ let name = "Royal";
 console.log(name, typeof name);
 name = + "Royal";
 console.log(name, typeof name);
+
+let num = BigInt(123155);
+let num1 = 123n;
+console.log(num+num1);
+console.log(Number.MAX_SAFE_INTEGER);
