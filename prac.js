@@ -1,6 +1,9 @@
-//template string
+//if else
 
-let firstName = " Lorie";
-let lastName = "Wright";
+let nums = 4;
 
-console.log(`My firstname is ${firstName} and my lastname is ${lastName}`);
+if(nums%2 === 0){
+  console.log("Even!");
+}else{
+  console.log("Odd!")
+}
