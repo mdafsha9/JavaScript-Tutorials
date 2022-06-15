@@ -1,11 +1,6 @@
 //String indexing
 
-let fruits = "            Apple            ";
+let fruits = "ApPlE";
 
-console.log(fruits);
-console.log(fruits.length);
-
-let newFruits  = fruits.trim();
-console.log(newFruits);
-console.log(newFruits.length);
-console.log(newFruits[newFruits.length-1]);
+console.log(fruits.toUpperCase());
+console.log(fruits.toLowerCase());
