@@ -1,19 +1,7 @@
 //typeof
 
-let firstName = "Lorie";
+let digit = 22;
+let alpha = "22";
 
-console.log(firstName, typeof firstName);
-
-let number = 22;
-console.log(number, typeof number);
-
-let fruits;
-console.log(fruits);
-
-let num = null;
-
-console.log(num);
-
-let newNum = 5;
-
-console.log(newNum<3);
+console.log(digit == alpha);
+console.log(digit === alpha);
