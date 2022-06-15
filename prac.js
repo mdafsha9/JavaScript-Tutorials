@@ -1,7 +1,6 @@
-//string concatenation
+//template string
 
-let firstName = "Lorie";
-let lastName  = "Wright";
+let firstName = " Lorie";
+let lastName = "Wright";
 
-
-console.log(firstName + " " + lastName);
+console.log(`My firstname is ${firstName} and my lastname is ${lastName}`);
