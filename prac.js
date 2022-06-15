@@ -2,5 +2,5 @@
 
 let fruits = "ApPlE";
 
-console.log(fruits.toUpperCase());
-console.log(fruits.toLowerCase());
+let newFruits = fruits.slice(0,4);
+console.log(newFruits);
