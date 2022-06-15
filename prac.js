@@ -1,9 +1,13 @@
-//if else
+//truthy and falsy values
+//false
+//undefined
+//null
+//0
+//""
 
-let nums = 4;
-
-if(nums%2 === 0){
-  console.log("Even!");
+let firstName ;
+if(firstName){
+  console.log(firstName);
 }else{
-  console.log("Odd!")
+  console.log("Falsy values");
 }
