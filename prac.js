@@ -1,6 +1,19 @@
-//String indexing
+//typeof
 
-let fruits = "ApPlE";
+let firstName = "Lorie";
 
-let newFruits = fruits.slice(0,4);
-console.log(newFruits);
+console.log(firstName, typeof firstName);
+
+let number = 22;
+console.log(number, typeof number);
+
+let fruits;
+console.log(fruits);
+
+let num = null;
+
+console.log(num);
+
+let newNum = 5;
+
+console.log(newNum<3);
