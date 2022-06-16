@@ -1,8 +1,8 @@
-//break and continue
+//do while loop
 
-for(let i=0; i<=10; i++){
-  if(i===4){
-    continue;
-  }
+let i = 0;
+
+do{
   console.log(i);
-}
+  i++;
+}while(i<=10)
