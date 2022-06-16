@@ -1,10 +1,5 @@
-//while loop
+//for loop
 
-let i = 0;
-let total = 0;
-while(i<=10){
-  total = total+ i;
-  i++;
-
+for(let i=0; i<=10; i++){
+  console.log(i);
 }
-console.log(total);
