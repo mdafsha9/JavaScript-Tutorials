@@ -1,6 +1,8 @@
-//for loop
-let total = 0;
+//break and continue
+
 for(let i=0; i<=10; i++){
-  total = total+i;
+  if(i===4){
+    break;
+  }
+  console.log(i);
 }
-console.log(total);
