@@ -7,7 +7,7 @@ array1.push("item3");
 
 //we can clone array1 elements in array2 but we cannot copy array1 push elements
 
-// let array2 = array1.slice(0);
+let array2 = array1.slice(0).concat("item4", "item5");
 // console.log(array1);
 // console.log(array2);
 
@@ -15,6 +15,6 @@ array1.push("item3");
 // console.log(array1);
 // console.log(array2);
 
-let array2 = [...array1];
+//let array2 = [...array1];
 console.log(array1);
 console.log(array2);
