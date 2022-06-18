@@ -1,20 +1,23 @@
-//clone array
-let array1 = ["item1", "item2"];
-// let array2 = array1;
-array1.push("item3");
-// console.log(array1 === array2);
+//arrays
 
+const fruits = ["Apple", "Mango", "Orange"];
 
-//we can clone array1 elements in array2 but we cannot copy array1 push elements
+console.log(fruits);
+console.log(fruits.length);
+console.log(fruits[fruits.length-1]);
 
-//let array2 = array1.slice(0).concat("item4", "item5");
-// console.log(array1);
-// console.log(array2);
+//push
+fruits.push("Banana");
+console.log(fruits);
 
-// let array2 = [].concat(array1);
-// console.log(array1);
-// console.log(array2);
+//pop
+fruits.pop();
+console.log(fruits);
 
-let array2 = [...array1, "item4", "item5"];
-console.log(array1);
-console.log(array2);
+//unshift
+fruits.unshift("Banana");
+console.log(fruits);
+
+//unshift
+fruits.shift();
+console.log(fruits);
