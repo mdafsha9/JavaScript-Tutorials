@@ -8,3 +8,12 @@ const person = {
 
 console.log(person, typeof person);
 console.log(person["person hobbies"]);
+
+person.nationality = "Indian";
+console.log(person);
+
+//iterate Objects (for in loop)
+
+for(let key in person){
+  console.log(`${key} : ${person[key]}`);
+}
