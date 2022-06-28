@@ -1,12 +1,9 @@
-//create an object using new keyword
+//create an empty javaScript object and then add proeprties
 
-const person = new Object();
-person.firstName = "Lorie";
-person.lastName = "Wright";
+const person = {};
+person.firstName = "Royal";
+person.lastName = "Roy";
 person.age = 30;
-person.hobbies = ["Playing", "singing", "Reading"];
-person.name = function(){
-  return this.firstName + " " + this.lastName;
-}
+person.hobbies = ["Reading", "Browsing", "creating blogs"];
 
-console.log("My name is " + person.name() + " and my hobbies are " + person.hobbies); 
+console.log("My hobbies are " +person.hobbies);
