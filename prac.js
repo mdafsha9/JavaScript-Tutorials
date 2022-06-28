@@ -1,9 +1,17 @@
-//create an empty javaScript object and then add proeprties
+//create an javaScript object constructor function
 
-const person = {};
-person.firstName = "Royal";
-person.lastName = "Roy";
-person.age = 30;
-person.hobbies = ["Reading", "Browsing", "creating blogs"];
+function Person(first, last, age, eye) {
+  this.firstName = first;
+  this.lastName = last;
+  this.age = age;
+  this.eyecolor = eye;
+  this.name = function(){
+    return this.firstName + " " + this.lastName;
+  }
+}
 
-console.log("My hobbies are " +person.hobbies);
+
+const myFriend = new Person("Black", "Berry", 25, "brown");
+const myNeighbour = new Person("obama", "barak", 40, "blue");
+
+console.log("My name is " +myNeighbour.name() + " and i am " + myFriend.age) ;
