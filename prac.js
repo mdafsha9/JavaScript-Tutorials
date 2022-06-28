@@ -1,12 +1,12 @@
-//create an object using object literals
+//create an object using new keyword
 
-const person = {
-  firstName : "John",
-  lastName : "Hue",
-  age : 25,
-  hobbies : ["criket", "reading", "playing"],
-  fullName : function(){
-    return this.firstName + " " + this.lastName;
-  }
+const person = new Object();
+person.firstName = "Lorie";
+person.lastName = "Wright";
+person.age = 30;
+person.hobbies = ["Playing", "singing", "Reading"];
+person.name = function(){
+  return this.firstName + " " + this.lastName;
 }
-console.log("My name is " + person.fullName() + " and i am " + person.age);
+
+console.log("My name is " + person.name() + " and my hobbies are " + person.hobbies); 
