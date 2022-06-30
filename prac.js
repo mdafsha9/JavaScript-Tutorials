@@ -12,7 +12,16 @@ class Fruits{
   }
 }
 
-const fruit1  = new Fruits("Apple", "6");
+const fruit1  = new Fruits("Apple", 6);
 console.log(fruit1);
 console.log(fruit1.isHealthy());
 console.log(fruit1.isWater());
+
+class Vegitables extends Fruits{
+  isVeggi(){
+    return `${this.name} is a vegitable`;
+  }
+}
+const vegii1 = new Vegitables("Tomato", 12);
+console.log(vegii1);
+console.log(vegii1.isVeggi());
