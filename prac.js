@@ -18,10 +18,16 @@ console.log(fruit1.isHealthy());
 console.log(fruit1.isWater());
 
 class Vegitables extends Fruits{
+
+    constructor(name, quantity, price){
+      super(name, quantity);
+      this.price = price;
+    }
+
   isVeggi(){
     return `${this.name} is a vegitable`;
   }
 }
-const vegii1 = new Vegitables("Tomato", 12);
+const vegii1 = new Vegitables("Tomato", 12, 25);
 console.log(vegii1);
 console.log(vegii1.isVeggi());
