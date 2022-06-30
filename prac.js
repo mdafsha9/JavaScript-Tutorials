@@ -1,18 +1,18 @@
-//create an javaScript object constructor function
-
-function Person(first, last, age, eye) {
-  this.firstName = first;
-  this.lastName = last;
-  this.age = age;
-  this.eyecolor = eye;
-  this.name = function(){
-    return this.firstName + " " + this.lastName;
+//JavaScript classes
+class Fruits{
+  constructor(name, quantity){
+    this.name = name;
+    this.quantity = quantity;
+  }
+  isHealthy(){
+    return `${this.name} is good for health!`;
+  }
+  isWater(){
+    return true;
   }
 }
 
-Person.prototype.nationality = "Indian";
-const myFriend = new Person("Black", "Berry", 25, "brown");
-const myNeighbour = new Person("obama", "barak", 40, "blue");
-
-console.log("My name is " +myNeighbour.name() + " and i am " + myFriend.age) ;
-console.log("My nationality is " + myFriend.nationality);
+const fruit1  = new Fruits("Apple", "6");
+console.log(fruit1);
+console.log(fruit1.isHealthy());
+console.log(fruit1.isWater());
