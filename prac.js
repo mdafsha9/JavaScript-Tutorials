@@ -1,6 +1,6 @@
-//function declarations
+//function expression
 
-function myFunc(a,b){
-  console.log(a+b);
+const a = function(x,y){
+  return x*y;
 }
-myFunc(2,5);
+console.log(a(2,5));
