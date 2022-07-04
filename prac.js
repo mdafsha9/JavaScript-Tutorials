@@ -1,6 +1,5 @@
-//function expression
+//JS function constructor called function()
 
-const a = function(x,y){
-  return x*y;
-}
-console.log(a(2,5));
+const myFunc = new Function("a", "b", "return a+b");
+
+console.log(myFunc(2,4)); 
