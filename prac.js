@@ -39,3 +39,18 @@ console.log(newFruit.toLowerCase());
 //slice() method
 let newFruits = newFruit.slice(2);
 console.log(newFruits);
+
+//typeof
+let animal;
+let num = null;
+let number = 5;
+console.log(typeof(name));
+console.log(typeof(pi));
+console.log(typeof(animal));
+console.log(num, typeof(num));
+console.log(number<5);
+
+let bigInt = BigInt(123);
+let newbigInt = 2n;
+console.log(bigInt + newbigInt);
+console.log(Number.MAX_SAFE_INTEGER);
