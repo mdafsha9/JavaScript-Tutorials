@@ -1,5 +1,16 @@
-//JS function constructor called function()
+//JS variables
+// var keyword
+var name = "Lorie";
+console.log(name);
+var name = "Romie";
+console.log(name);
 
-const myFunc = new Function("a", "b", "return a+b");
+//let keyword
+let firstName = "Lorie";
+console.log(firstName);
+ firstName = "Romie";
+console.log(firstName);
 
-console.log(myFunc(2,4)); 
+//const keyword
+const pi = 1.36;
+console.log(pi*2);
