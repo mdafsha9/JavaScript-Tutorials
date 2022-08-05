@@ -64,3 +64,6 @@ let str = "22";
 console.log(str, typeof(str));
 str = +"22";
 console.log(str, typeof(str));
+
+console.log(num1 == str);
+console.log(num1 === str);
