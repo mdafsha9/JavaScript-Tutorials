@@ -54,3 +54,13 @@ let bigInt = BigInt(123);
 let newbigInt = 2n;
 console.log(bigInt + newbigInt);
 console.log(Number.MAX_SAFE_INTEGER);
+
+//srting to number, number to string coonversion
+let num1 = 22;
+console.log(num1, typeof(num1));
+num1 = 22 + ' ';
+console.log(num1, typeof(num1));
+let str = "22";
+console.log(str, typeof(str));
+str = +"22";
+console.log(str, typeof(str));
