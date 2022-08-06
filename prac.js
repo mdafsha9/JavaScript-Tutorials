@@ -75,3 +75,19 @@ console.log(fullName);
 
 //template strings
 console.log(`My name is ${fName} ${lName}`);
+
+//if else
+let numb = 18;
+if(numb<=18){
+  console.log("You age must be above 18");
+}else {
+  console.log("Congratulations!");
+}
+
+//falsy values (false, null, 0, undefined)
+let car ;
+if(car){
+  console.log(car);
+}else{
+  console.log("falsy value");
+}
