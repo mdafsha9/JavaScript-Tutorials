@@ -67,3 +67,11 @@ console.log(str, typeof(str));
 
 console.log(num1 == str);
 console.log(num1 === str);
+//string concatination
+let fName = "Mohit";
+let lName = "Verma";
+let fullName = fName + " " + lName;
+console.log(fullName);
+
+//template strings
+console.log(`My name is ${fName} ${lName}`);
