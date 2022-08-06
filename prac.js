@@ -115,6 +115,7 @@ if(empName[0] === "R" || age> 18){
   console.log("You must qualify either one conditiont ");
 }
 
+//nested if else
 let winningNum = 22 ;
 let userGuess =  +prompt("Guess a number")
 if(userGuess === winningNum){
@@ -125,4 +126,20 @@ if(userGuess === winningNum){
 }else{
   console.log("too high!");
 }
+}
+
+//if elseif
+
+let grade = 75;
+
+if(grade > 85){
+  console.log("Distinction!");
+}else if(grade>75){
+  console.log("First class!");
+}else if(grade>65){
+  console.log("Second class!");
+}else if(grade>55){
+  console.log("Third class!");
+}else{
+  console.log("Just pass!");
 }
