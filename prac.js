@@ -112,5 +112,17 @@ if(empName[0] === "R" && age> 18){
 if(empName[0] === "R" || age> 18){
   console.log("Your name starts with R ");
 }else{
-  console.log("You must qualify either one condition");
+  console.log("You must qualify either one conditiont ");
+}
+
+let winningNum = 22 ;
+let userGuess =  +prompt("Guess a number")
+if(userGuess === winningNum){
+  console.log("Your guess is perfect!");
+}else {
+  if(userGuess<winningNum){
+  console.log("Too Low!");
+}else{
+  console.log("too high!");
+}
 }
