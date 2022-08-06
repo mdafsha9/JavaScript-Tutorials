@@ -91,3 +91,8 @@ if(car){
 }else{
   console.log("falsy value");
 }
+
+let drink = 3;
+
+let user = drink<5 ? "milk" : "coffee";
+console.log(user);
