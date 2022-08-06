@@ -92,7 +92,25 @@ if(car){
   console.log("falsy value");
 }
 
+//Ternary operator
 let drink = 3;
 
 let user = drink<5 ? "milk" : "coffee";
 console.log(user);
+
+//And or OR operator
+
+let empName = "Richards";
+let age = 15;
+
+if(empName[0] === "R" && age> 18){
+  console.log("Your name starts with R and age is above 18");
+}else{
+  console.log("You must eligible both conditions!");
+}
+
+if(empName[0] === "R" || age> 18){
+  console.log("Your name starts with R ");
+}else{
+  console.log("You must qualify either one condition");
+}
