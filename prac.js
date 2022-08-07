@@ -179,9 +179,22 @@ while(x<10){
   console.log(x);
 x++;
 }
-
+//example for while loop
+let a=0;
+let total=0;
+while(a<=10){
+   total = total+a;
+  a++;
+}
+console.log(total);
 //for loop
 
 for(let i=0; i<=10; i++){
   console.log(i);
 }
+//Example for for loop
+let sum = 0;
+for(let i=0; i<=10; i++){
+  sum=sum+i;
+}
+console.log(sum);
