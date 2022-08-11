@@ -3,9 +3,9 @@ let person = {
   firstName : "Lorie",
   lastName : "Wright",
   age : 22,
-  hobbies : ["reading", "playing", "singing"]
+  "person hobbies" : ["reading", "playing", "singing"]
 }
-console.log(person);
+console.log(person["person hobbies"]);
 
 let employee = {};
 employee.firstName = "Cathy";
@@ -21,3 +21,25 @@ student.lastName = "Shestra";
 student.age = 35;
 student.color = "Black";
 console.log(student);
+
+for(let key in student){
+  console.log(`${key} : ${student[key]}`);
+}
+
+const key1 = "objKey1";
+const key2 = "objKey2";
+
+const value1 = "myValue1";
+const value2 = "myValue2";
+
+const obj = {
+  key1 : value1,
+  key2 : value2
+}
+console.log(obj);
+
+const obj1 = {
+  [key1] : value1,
+  [key2] : value2
+}
+console.log(obj1);
