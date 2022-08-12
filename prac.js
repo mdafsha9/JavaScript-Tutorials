@@ -1,19 +1,15 @@
-//spread operator in arrays and objects
+//javascript object constructor function
 
-let array1 = ["item1", "item2" ];
-
-let array2 = ["item3", "item4"];
-
-const myArr = [...array1, ...array2, "item5"];
-console.log(myArr);
-
-let obj1 = {
-  key1 : "val1",
-  key2 : "val2"
+function Person(first, last, eye, age){
+  this.firstName = first;
+  this.lastName = last;
+  this.eye = eye;
+  this.age = age;
 }
-let obj2 = {
-  key3 : "val3",
-  key4 : "val4"
-}
-const myObj = {...obj1, ...obj2, key5:"val5"};
-console.log(myObj);
+
+const myfriend1 = new Person("Harika", "Perugu", "Black", 22);
+const myfriend2 = new Person("Haritha", "majiga", "Brown", 25);
+
+
+console.log("My friend eye color is " + " " + myfriend1.eye);
+console.log("My friend name is " + " " + myfriend2.firstName + " " +myfriend2.lastName);
