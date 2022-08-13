@@ -1,14 +1,21 @@
 //JavaScript object Set
- const numbers = new Set();
- numbers.add(1);
- numbers.add(2);
- numbers.add(3);
- numbers.add(4);
- numbers.add(5);
- console.log(numbers);
+const numbers = new Set();
+numbers.add(1);
+numbers.add("Apple");
+numbers.add(["cat", "Dog", "Eagle"]);
+console.log(numbers);
 
-if(numbers.has(4)){
-  console.log("4 is present");
+numbers.delete("Apple");
+console.log(numbers);
+
+if(numbers.has(1)){
+  console.log("1 is present");
 }else{
-  console.log("4 is not present");
+  console.log("1 is not present");
+}
+
+// numbers.clear();
+// console.log(numbers);
+for(let number of numbers){
+  console.log(number);
 }
