@@ -1,21 +1,15 @@
-//JavaScript object Set
-const numbers = new Set();
-numbers.add(1);
-numbers.add("Apple");
-numbers.add(["cat", "Dog", "Eagle"]);
-console.log(numbers);
+//JavaScript object Map
 
-numbers.delete("Apple");
-console.log(numbers);
+const person = new Map();
+person.set('firstName' , 'Lorie');
+    person.set('lastName' , 'Wright');
+    person.set('age' , 58)
+    person.set(1 , 'one')
 
-if(numbers.has(1)){
-  console.log("1 is present");
-}else{
-  console.log("1 is not present");
-}
+console.log(person.get("lastName"));
 
-// numbers.clear();
-// console.log(numbers);
-for(let number of numbers){
-  console.log(number);
+console.log(person);
+
+for(let key of person.keys()){
+  console.log(key, typeof key);
 }
